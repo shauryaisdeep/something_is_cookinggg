@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Landing Page</title>
+  <style>
+    /* Reset & fit video full screen */
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      font-family: 'Courier New', monospace; /* Techy font */
+    }
+
+    .video-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    /* Center overlay */
+    .overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    /* Tech Button */
+    .btn {
+      font-size: 28px;
+      font-weight: bold;
+      padding: 20px 50px;
+      color: #00ffcc;
+      background: transparent;
+      border: 2px solid #00ffcc;
+      border-radius: 8px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      text-decoration: none;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      transition: 0.3s ease;
+      box-shadow: 0 0 10px #00ffcc, inset 0 0 10px #00ffcc;
+    }
+
+    /* Glow effect */
+    .btn::before {
+      content: "";
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: rgba(0, 255, 204, 0.1);
+      transform: rotate(45deg);
+      transition: all 0.5s ease;
+      z-index: 0;
+    }
+
+    .btn:hover::before {
+      top: -60%;
+      left: -60%;
+      background: rgba(0, 255, 204, 0.2);
+    }
+
+    .btn:hover {
+      color: black;
+      background: #00ffcc;
+      box-shadow: 0 0 20px #00ffcc, 0 0 40px #00ffcc, 0 0 60px #00ffcc;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Video background -->
+  <video class="video-bg" autoplay muted loop playsinline>
+    <source src="assets/WhatsApp Video 2025-08-19 at 06.39.35_fe7cbe47.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Overlay Button -->
+  <div class="overlay">
+    <a href="menu.html" class="btn">CLICK HERE</a>
+  </div>
+
+</body>
+</html>

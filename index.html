@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecting...</title>
+  <script>
+    // Run immediately (no DOMContentLoaded wait)
+    (function() {
+      if (window.innerWidth <= 991) {
+        window.location.replace("mobile.html");
+      } else {
+        window.location.replace("assets/index.html");
+      }
+    })();
+  </script>
+</head>
+<body>
+  <noscript>
+    <p style="text-align:center; margin-top:20%;">Please enable JavaScript to continue.</p>
+  </noscript>
+</body>
+</html>

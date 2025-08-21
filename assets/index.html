@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Force desktop width on all devices -->
+    <meta name="viewport" content="width=1200, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS file is in root, so go one folder up -->
+    <link rel="stylesheet" href="../style1.css">
+</head>
+<body>
+    <header>
+        <!-- Image path fixed (we are already in assets/, so drop the "assets/") -->
+        <div class="left" style="position:relative; width:100%; height:100vh; background:url('img/lol.jpg') no-repeat center/cover; display:flex; align-items:center; justify-content:center;">
+        </div>
+    </header>
+
+    <div class="banner">
+        <div class="product">
+            <!-- Same fix here -->
+            <div class="soda" style="--url: url(assets/img/bg.png)"></div>
+            <div class="soda" style="--url: url(assets/img/bg2.png)"></div>
+        </div>
+
+        <div class="rock">
+            <a href="../menu.html">
+                <img src="img/rock1.png" alt="">
+            </a>
+            <img src="img/rock2.png" alt="">
+            <img src="img/rock3.png" alt="">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>PHOENIX 2.0</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
+    <!-- Icon -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">
+    <!-- Nivo Lightbox -->
+    <link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css" >
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="shortcut icon" type="image/jpg" href="assets/img/codecell-logo.png"/>
+	<link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+<script src="https://unpkg.com/three@0.152.2/build/three.min.js"></script>
+<script src="https://unpkg.com/gsap@3.12.2/dist/gsap.min.js"></script>
+<script src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+
+
+  </head>
+  <body onload="startEverything()">
+
+  <div class="loader"></div>
+    <!-- Header Area wrapper Starts -->
+    <header id="header-wrap">
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg bg-inverse fixed-top scrolling-navbar">
+        <div id="nav-container" class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <a href="#" class="navbar-brand">
+  <img id="nav-logo" src="assets/img/logohack.png" alt="" style="width: 300px; height: 80;">
+</a>     
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="lni-menu"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+              <li class="nav-item active">
+                <a class="nav-link" href="#header-wrap">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">
+                  About
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#prizes">
+                  Prizes
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#schedules">
+                  schedule
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#domains">
+                  Hack Domains
+                </a>
+              </li>
+                        
+              <li class="nav-item">
+                <a class="nav-link" href="#sponsors">
+                  Sponsors
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">
+                  FAQs
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar End -->
+
+      <!-- Hero Area Start -->
+      <div id="hero-area" class="hero-area-bg">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-9 col-sm-12">
+              <div class="contents text-center">
+                <!-- <div class="icon">
+                  <i class="lni-mic"></i>
+                </div> -->
+                
+                <!-- <h2 class="head-title">TSEC Hacks</h2>
+                <p class="banner-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, nobis nesciunt atque perferendis, ipsa doloremque deserunt cum qui.</p> -->
+                
+                  <img id="hero-image" style="margin-left: auto; margin-right: auto;" src="assets/img//background/logohack.png" width="200px" height="200px" alt="">
+                  <div class="banner-btn">
+<a href="" id="hero-register" class="btn btn-common" style="
+  display: inline-block;
+  padding: 15px 30px;
+  font-family: 'Courier New', monospace;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
+  background: linear-gradient(135deg, #00ff99 0%, #00cc66 100%);
+  border: 3px solid #00ff99;
+  border-radius: 8px;
+  text-shadow: 0 0 5px #00ff99, 0 0 10px #00cc66;
+  box-shadow: 0 0 15px #00ff99, 0 0 40px #00ff99 inset;
+  transition: all 0.2s ease-in-out;
+  animation: pulse-glow 1s infinite alternate;
+  cursor: not-allowed;
+  position: relative;
+  overflow: hidden;
+">
+  COMING SOON!
+</a>
+                  </div>
+                <p style="
+  font-family: 'Courier New', monospace;
+  color: #00ff99;
+  background: rgba(0, 0, 0, 0.85);
+  padding: 15px;
+  border: 2px solid #00ff99;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 20px;
+  text-shadow: 0 0 8px #00ff99, 0 0 20px #007755;
+">
+  Hackathon begins on 19th SEPTEMBER.<br>
+  you have time to cook till then...
+</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section id="count">
+          <div class="count-wrapper text-center">
+            <div class="time-countdown wow fadeInUp" data-wow-delay="0.2s">
+              <div id="clock" class="time-count">
+
+                <div class="count-item-main">
+                  <h3 class="count-item" id="count-days">%d</h3>
+                  <h4>Days</h4>
+                </div>
+                <div class="count-item-main">
+                  <h3 class="count-item" id="count-hours">%h</h3>
+                  <h4>Hours</h4>
+                </div>
+                <div class="count-item-main" >
+                  <h3 class="count-item" id="count-mins">%m</h3>
+                  <h4>Minutes</h4>
+                </div>
+                <div class="count-item-main">
+                  <h3 class="count-item" id="count-sec">%s</h3>
+                  <h4>Seconds</h4>
+                </div>
+
+              </div>
+              
+            </div>
+          </div>
+  </section>
+      </div>
+      <!-- Hero Area End -->
+
+    </header>
+    <!-- Header Area wrapper End -->
+
+    <!-- Count Bar Start -->
+    
+    <!-- Count Bar End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-xs-12">
+            <div class="img-thumb">
+              <img  class="img-fluid" src="assets/img/background/hacklog.png" alt="">
+            </div> 
+          </div>
+          <div class="col-lg-6 col-md-12 col-xs-12">
+            <div class="about-content">
+              <div>
+                <div class="about-text">  
+                 <div style="background-color: #0f0f0f; padding: 20px; border-radius: 10px; border: 2px solid #00ff99;">
+  <h2 style="color: #00ff99; font-family: 'Courier New', monospace; text-shadow: 0 0 5px #00ff99;">About The Hackathon</h2>
+  
+  <p style="color: #ccffcc; font-family: 'Courier New', monospace; font-size: 16px; line-height: 1.6; text-shadow: 0 0 2px #00ff99;">
+    <strong style="color:#00ffaa;">Pheonix 2.0</strong> is the annual hackathon organized by <span style="color: #00e6e6;">Code-X Tech Society</span> and <span style="color: #00e6e6;">Genesis</span>.
+    A good cook never reveals his ingredients beforehand... <em style="color: #ffcc00;">stay tuned!</em>
+  </p>
+
+  <ul class="stylish-list mb-3 hackathon_list" style="color: #ccffcc; font-family: 'Courier New', monospace; font-size: 15px;">
+    <li><i style="color: #00ffaa;" class="lni-check-mark-circle"></i> Date: <span style="color: #ffffff;">19th Sept – 20th Sept 2025</span></li>
+    <li><i style="color: #00ffaa;" class="lni-check-mark-circle"></i> Team Size: <span style="color: #ffffff;">2 to 4 members</span></li>
+    <li><i style="color: #00ffaa;" class="lni-check-mark-circle"></i> Free Registrations</li>
+    <li><i style="color: #00ffaa;" class="lni-check-mark-circle"></i> Participation Fee: <span style="color: #ff4444;">N/A</span></li>
+    <li><i style="color: #00ffaa;" class="lni-check-mark-circle"></i> Cash Prizes: <em style="color: #ffcc00;">To Be Cooked Up Soon</em></li>
+  </ul>
+
+  <a class="btn btn-common" href="" style="background-color: #00ff99; color: #000; font-weight: bold; border-radius: 6px; padding: 10px 20px; font-family: 'Courier New', monospace; box-shadow: 0 0 10px #00ff99;">
+    Coming Soon, Cook Later!
+  </a>
+</div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Video Section Start -->
+    <div class="ready-to-play">
+      <video id="bgvid" class="stop" loop>
+        <source src="assets/video/hack.mp4" type="video/mp4">
+      </video>
+      <div id="polina" class="video-text">
+        <div class="tb-t">
+            <div class="tb-c">
+              <div class="polina"><button><i class='lni-play'></i></button></div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- Video Section End -->
+
+    <!-- Information Bar Start -->
+    <section id="information-bar">
+      <div class="container">
+        <div class="row inforation-wrapper">
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <ul>
+              <li>
+                <i class="lni-map-marker"></i>
+              </li>
+              <li><span><b>Mode of Conduct</b> Offline</span></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <ul>
+              <li>
+                <i class="lni-calendar"></i>
+              </li>
+              <li><span><b>Date & Time</b> 19th September, 2025 at 9 AM </span></li>
+            </ul>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <ul>
+              <li>
+                <i class="lni-user"></i>
+              </li>
+              <li><span><b>Team Size</b>2 to 4 members</span></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <ul>
+              <li>
+                <i class="lni lni-code-alt"></i>
+              </li>
+              <a href="#domains"><li><span><b>Domains</b>Multiple hack domains</span></li></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- Information Bar End -->
+
+<!-- Prizes Section Start -->
+<section id="prizes" class="section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title-header text-center">
+          <h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">Prizes and Awards</h2>
+          <p class="wow fadeInDown" data-wow-delay="0.2s">Cash prizes and all deliverables will be announced shortly. All participants will receive Certificate of Participation.</p>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="row">
+      <div class="col-lg-4 col-md-6 col-xs-12">
+        <div class="event-item">
+          <img class="img-fluid" src="assets/img/prize/cash.png" alt="">
+          <div class="overlay-text">
+            <div class="content">
+              <h3>Cash Prizes</h3>
+              <h3 style="text-transform: capitalize; font-size: 14px; line-height: 20px;">1st Place: INR 25,000<br>
+              2nd Place: INR 10,000<br>
+              3rd Place: INR 5,000<br>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div >
+          <h3 style="text-align: center; font-size: 18px; font-family: sans-serif; margin-bottom: 10px; margin-top: 5px;">Cash Prizes</h3>
+          <h3 class="prize-desc" style="text-transform: capitalize; font-size: 14px; line-height: 20px; text-align: center;">1st Place: INR 25,000<br>
+            2nd Place: INR 10,000<br>
+            3rd Place: INR 5,000<br>
+          </h3>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-xs-12">
+        <div class="event-item">
+          <img class="img-fluid" src="assets/img/prize/more.png" alt="">
+          <div class="overlay-text">
+            <div class="content">
+              <h3>More Prizes for Winners</h3>
+              <h3 style="text-transform: capitalize; font-size: 14px; line-height: 20px;">
+              1. Wolfram Award for Top 10 teams<br>(worth $375 per user)<br>
+              2. 90%-70% discount coupons for any Coding Blocks course<br>
+              3. SITH free course<br>
+              4. Pair a dice cafe coupons</h3>
+            </div>
+          </div>
+        </div>
+        <div >
+          <h3 style="text-align: center; font-size: 18px; font-family: sans-serif; margin-bottom: 10px; margin-top: 5px;">More Prizes for Winners</h3>
+          <h3 class="prize-desc" style="text-transform: capitalize; font-size: 14px; line-height: 20px; text-align: center;">1. Wolfram Award for Top 10 teams<br>(worth $375 per user)<br>
+            2. 90%-70% discount coupons for any Coding Blocks course<br>
+            3. SITH free course<br>
+            4. Pair a dice cafe coupons</h3>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-xs-12">
+        <div class="event-item">
+          <img class="img-fluid" src="assets/img/prize/vouchers.png" alt="">
+          <div class="overlay-text">
+            <div class="content">
+              <h3>Goodies for All</h3>
+              <h3 style="text-transform: capitalize; font-size: 14px; line-height: 20px;">Participants get access to:-<br>
+              1. Wolfram|One ($25 for a month)<br>
+              2. Repl.it HackerPlan ($21 for 3 months)<br>
+              3. Taskade Unlimited plan ($60 for 1 year)<br>
+              4. SashiDo platform credits<br>
+              5. 65% discount coupons for Coding Blocks courses<br></h3>
+            </div>
+          </div>
+        </div>
+        <div >
+          <h3 style="text-align: center; font-size: 18px; font-family: sans-serif; margin-bottom: 10px; margin-top: 5px;">Goodies for All</h3>
+          <h3 class="prize-desc" style="text-transform: capitalize; font-size: 14px; line-height: 20px; text-align: center;">Participants get access to:-<br>
+            1. Wolfram|One ($25 for a month)<br>
+            2. Repl.it HackerPlan ($21 for 3 months)<br>
+            3. Taskade Unlimited plan ($60 for 1 year)<br>
+            4. SashiDo platform credits<br>
+            5. 65% discount coupons for Coding Blocks courses<br></h3>       
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-xs-12">
+        <div class="event-item">
+          <img class="img-fluid" src="assets/img/prize/internship.png" alt="">
+          <div class="overlay-text">
+            <div class="content">
+              <h3>Internship Opportunities</h3>
+              <h3 style="text-transform: capitalize; font-size: 14px; line-height: 20px; text-align: center; padding: 5px;">Internships and mentorship provided by CertifyMe and SITH</h3>
+            </div>
+          </div>
+        </div>
+        <div >
+          <h3 style="text-align: center; font-size: 18px; font-family: sans-serif; margin-bottom: 10px; margin-top: 5px;">Internship Opportunities</h3>
+          <h3 class="prize-desc" style="text-transform: capitalize; font-size: 14px; line-height: 20px; text-align: center;">Internships and mentorship provided by CertifyMe and SITH.</h3>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-xs-12">
+        <div class="event-item">
+          <img class="img-fluid" src="assets/img/prize/cert.png" alt="">
+          <div class="overlay-text">
+            <div class="content">
+              <h3>Certificate of Participation</h3>
+            </div>
+          </div>
+        </div>
+        <div >
+          <h3 style="text-align: center; font-size: 18px; font-family: sans-serif; margin-bottom: 10px; margin-top: 5px;">Certificate of Participation</h3>
+        </div>
+      </div>
+    </div> -->
+    
+  </div>
+</section>
+<!-- Prizes Section End -->
+
+<!-- Counter Area Start-->
+<section class="counter-section section-padding">
+  <div class="container">
+    <h2 style="color:white;" id="last-stats" class="section-title wow fadeInUp" data-wow-delay="0.2s">Last Year Stats</h2>
+    <div class="row">
+      <!-- Counter Item -->
+      <div class="col-lg-3 col-md-6 col-xs-12 work-counter-widget">
+        <div class="counter">
+          <div class="icon">
+            <i class="lni lni-users"></i>
+          </div>
+          <div class="counter-content">
+            <div class="counterUp">2000</div>
+            <p>Participants</p>
+          </div>
+        </div>
+      </div>
+      <!-- Counter Item -->
+      <div class="col-lg-3 col-md-6 col-xs-12 work-counter-widget">
+        <div class="counter">
+          <div class="icon">
+            <i class="lni lni-handshake"></i>
+          </div>
+          <div class="counter-content">
+            <div class="counterUp">200</div>
+            <p>Teams</p>
+          </div>
+        </div>
+      </div>
+      <!-- Counter Item -->
+      <div class="col-lg-3 col-md-6 col-xs-12 work-counter-widget">
+        <div class="counter">
+          <div class="icon">
+            <i class="lni-briefcase"></i>
+          </div>
+          <div class="counter-content">
+            <div class="counterUp">48</div>
+            <p>Colleges</p>
+          </div>
+        </div>
+      </div>
+      <!-- Counter Item -->
+      <div class="col-lg-3 col-md-6 col-xs-12 work-counter-widget">
+        <div class="counter">
+          <div class="icon">
+            <i class="lni lni-customer"></i>
+          </div>
+          <div class="counter-content">
+            <div class="counterUp">9</div>
+            <p>Sponsors</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Counter Area End-->
+
+    <!-- Schedule Section Start -->
+    <section id="schedules" class="schedule section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h2 style="margin-bottom: 20px;"  class="section-title wow fadeInUp" data-wow-delay="0.2s">Event Schedule</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 mb-5 text-center">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active nav-width" id="monday-tab" data-toggle="tab" href="#monday" role="tab" aria-controls="monday" aria-expanded="true">
+                  <div class="item-text">
+                    <h4>Phase 1</h4>
+                    <h5>Registrations</h5>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-width" id="tuesday-tab" data-toggle="tab" href="#tuesday" role="tab" aria-controls="tuesday">
+                  <div class="item-text">
+                    <h4>Phase 2</h4>
+                    <h5>Shortlisting</h5>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item nav-width">
+                <a class="nav-link" id="wednesday-tab" data-toggle="tab" href="#wednesday" role="tab" aria-controls="wednesday">
+                  <div class="item-text">
+                    <h4>Phase 3</h4>
+                    <h5>Hackathon</h5>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item nav-width">
+                <a class="nav-link" id="thursday-tab" data-toggle="tab" href="#thursday" role="tab" aria-controls="thursday">
+                  <div class="item-text">
+                    <h4>Phase 4</h4>
+                    <h5>Judging</h5>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12">
+            <div class="schedule-area row wow fadeInDown" data-wow-delay="0.3s">
+              <div class="schedule-tab-content col-12 clearfix">
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="monday" role="tabpanel" aria-labelledby="monday-tab">
+                    <div id="accordion">
+                      <div class="card">
+                        <div id="headingOne">
+                          <div class="schedule-slot-time">
+                            <span> To be Announced soon </span>
+                            Register
+                          </div>
+                          <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1">
+                            
+                            <h4>Registration Process</h4>
+                            <h5 class="name">PHOENIX 2.0</h5>
+                          </div>
+                        </div>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                          <div class="card-body">
+                            <p>The registration would be simply done by just clicking the register button which will be soon active <a class="register-link">here</a></p>
+                            
+                          </div>
+                        </div>
+                      </div>                    
+                      
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="tuesday" role="tabpanel" aria-labelledby="tuesday-tab">
+                    <div id="accordion2">
+                      <div class="card">
+                        <div id="headingOne1">
+                          <div class="schedule-slot-time">
+                            <span>September 6th - September 18th</span>
+                            Shortlisting
+                          </div>
+                          <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
+                        
+                            <h4>Shortlisting of Teams</h4>
+                            <h5 class="name">Pheonix 2.0 </h5>
+                          </div>
+                        </div>
+                        <div id="collapseOne1" class="collapse show" aria-labelledby="headingOne1" data-parent="#accordion2">
+                          <div class="card-body">
+                            <p>A shortlisting process would be done from which certain teams would be selected out of the lot to take part in Pheonix 2.0. Shortlisting process shall be done on 1 week prior to the hackathon commencement</p>
+                            
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="wednesday" role="tabpanel" aria-labelledby="wednesday-tab">
+                    <div id="accordion3">
+                      <div class="card">
+                        <div id="headingOne3">
+                          <div class="schedule-slot-time">
+                            <span>SEPT 19 - SEPT 20</span>
+                            Hackathon
+                          </div>
+                          <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne3" aria-expanded="false" aria-controls="collapseOne3">
+                            
+                            <h4>Hackathon Begins for all</h4>
+                            <h5 class="name">PHOENIX 2.0</h5>
+                          </div>
+                        </div>
+                        <div id="collapseOne3" class="collapse show" aria-labelledby="headingOne3" data-parent="#accordion3">
+                          <div class="card-body">
+                            <p>The Hackathon would begin on 19th September at 9AM and end on 20th September, 2025. It is a 24hr hackathon where you'd be given various problem statements from various domains for your team to choose from along with mentors guiding you in certain time gaps.</p>
+                            
+                          </div>
+                        </div>
+                      </div>
+                      
+                      
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="thursday" role="tabpanel" aria-labelledby="thursday-tab">
+                    <div id="accordion4">
+                      <div class="card">
+                        <div id="headingOne">
+                          <div class="schedule-slot-time">
+                            <span>Mar 10, 11AM</span>
+                            Judging
+                          </div>
+                          <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne4" aria-expanded="false" aria-controls="collapseOne4">
+                            
+                            <h4>Judging and presentation of projects begins</h4>
+                            <h5 class="name">PHOENIX 2.0</h5>
+                          </div>
+                        </div>
+                        <div id="collapseOne4" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion4">
+                          <div class="card-body">
+                            <p>After the hackathon ends, your team will be able to present their projects to our judges where they would judge and give feedbacks to your team</p>
+                            
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Schedule Section End -->
+
+    <!-- Blog Section Start -->
+    <!-- ================ DOMAIN START ================ -->
+<section class="domain" id="domain">
+  <div class="center-text" data-aos="fade-down">
+<h2 style="text-align: center; color: #00ff88;">DOMAINS</h2>
+  </div>
+
+  <div class="banner">
+    <div class="slider" style="--quantity: 6">
+      <div class="item" style="--position: 1">
+        <img src="assets/img/blockchain.jpg" alt="Blockchain" />
+        <div class="domain-label">Blockchain</div>
+      </div>
+      <div class="item" style="--position: 2">
+        <img src="assets/img/web3.jpg" alt="Web3" />
+        <div class="domain-label">Web3</div>
+      </div>
+      <div class="item" style="--position: 3">
+        <img src="assets/img/appdev.jpg" alt="App Dev" />
+        <div class="domain-label">App Development</div>
+      </div>
+      <div class="item" style="--position: 4">
+        <img src="assets/img/ai.jpg" alt="AI/ML" />
+        <div class="domain-label">AI/ML</div>
+      </div>
+      <div class="item" style="--position: 5">
+        <img src="assets/img/uiux.jpg" alt="UI/UX" />
+        <div class="domain-label">UI/UX</div>
+      </div>
+      <div class="item" style="--position: 6">
+        <img src="assets/img/cyber.jpg" alt="Cybersecurity" />
+        <div class="domain-label">Cybersecurity</div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ================ DOMAIN END ================ -->
+
+    <!-- Blog Section End -->
+
+    <!-- Sponsors Section Start -->
+<section id="sponsors" class="section-padding" style="position: relative;">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title-header text-center">
+         
+        </div>
+      </div>
+    </div>
+    
+    <!-- INNOVATE'25 Overlay Logo -->
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+                z-index: 10; pointer-events: none;">
+      <img src="assets/img/innooo.png" alt="Innovate '25" style="max-width: 500px; width: 100%; height: auto;">
+    </div>
+</section>
+
+
+
+
+    <!-- Sponsors Section End -->
+
+    <!-- FAQ Section Start -->
+    <section id="faq" class="intro section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">FAQs</h2>
+              <p class="wow fadeInDown" data-wow-delay="0.2s">Answers to the most frequently asked questions!</p>
+            </div>
+          </div>
+        </div>
+        <div class="row intro-wrapper">
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <div class="single-intro-text mb-70">
+               <i class="lni-microphone"></i>
+               <h3>Who can participate?</h3>
+               <p>
+                The hackathon is open for Students from all over India. It is the right place for anyone who's interested in learning and innovating with their ideas.
+               </p>
+               <span class="count-number">01</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <div class="single-intro-text">
+               <i class="lni-users"></i>
+               <h3 class="ts-title">How much will it cost?</h3>
+               <p>
+                 Although registration for PHOENIX 2.0 is completely free, a small participation fee of maybe some los pollos fried chicken has to be paid incase your team is shortlisted.
+               </p>
+               <span class="count-number">02</span>
+            </div>
+            <div class="border-shap left"></div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <div class="single-intro-text mb-70">
+               <i class="lni-bullhorn"></i>
+               <h3>How can I apply?</h3>
+               <p>The registration link will be soon released for all national and international participants soon </p>
+               <span class="count-number">03</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <div class="single-intro-text mb-70">
+               <i class="lni-heart"></i>
+               <h3>What if I don't know how to code?</h3>
+               <p>
+                No worries, Interest in learning and working with technology is much more important than your current experience level.
+               </p>
+               <span class="count-number">04</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <div class="single-intro-text mb-70">
+               <i class="lni-cup"></i>
+               <h3>What are the prizes to be won?</h3>
+               <p>
+                We are going to announce some really exciting prizes and incentives soon. Stay tuned for further updates!
+               </p>
+               <span class="count-number">05</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <div class="single-intro-text mb-70">
+               <i class="lni-gallery"></i>
+               <h3>Can we apply as a team?</h3>
+               <p>
+                Yes! We believe that you’re stronger as a team than apart. You can form teams of 2-4 people. Most teams aim to have a mix of people with both design and development skills.
+               </p>
+               <span class="count-number">06</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ Section End -->
+
+    <!-- Contact text Start -->
+    <section id="contact-text">
+      <div class="container">
+        <div class="row contact-wrapper">
+          <div class="col-lg-4 col-md-5 col-xs-12">
+            <ul>
+              <a href="https://share.google/3iYQAsGYkkPYTlpOQ">
+                <li>
+                  <i class="lni-home"></i>
+                </li>
+                <li><span>SRM INSTITUTE OF SCIENCE AND TECHNOLOGY, Delhi-NCR</li>
+              </a>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-3 col-xs-12">
+            <ul>
+              <a href="tel:+91-8377906058">
+                <li>
+                  <i class="lni-phone"></i>
+                </li>
+                <li><span> Meghana Khatkar - 8377906058</span></li>
+              </a>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-3 col-xs-12">
+            <ul>
+              <a href="mailto:teamphoenix.codex@gmail.com ">
+                <li>
+                  <i class="lni-envelope"></i>
+                </li>
+                <li><span>teamphoenix.codex@gmail.com </span></li>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact text End -->
+
+    <footer>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-md-12 col-xs-12">
+          
+            <div class="footer-logo">
+              <img id="foot-logo" src="assets/img/logohack.png" alt="" style="width: 250px; height: 70;">
+            </div>
+            <div class="social-icons-footer">
+              <ul>
+                <li class="facebook"><a target="_blank" href="http://www.savewalterwhite.com/"><i class="lni-facebook-filled"></i></a></li>
+                <li class="twitter"><a target="_blank" href="https://x.com/zk_genesis"><i class="lni lni-linkedin-original"></i></i></a></li>
+                <li class="pinterest"><a target="_blank" href="https://www.instagram.com/phoenix.codex/"><i class="lni lni-instagram-original"></i></a></li>
+              </ul>
+            </div>
+            <div class="site-info">
+              <p>Designed and Developed by <a href="https://www.instagram.com/phoenix.codex/" rel="nofollow">Team Phoenix</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+  // Set the date we're counting down to
+  var countDownDate = new Date("September 19, 2025 23:59:59").getTime();
+
+  // Update the count down every 1 second
+  var x = setInterval(function () {
+    var now = new Date().getTime();
+    var distance = countDownDate - now;
+
+    if (distance < 0) {
+      clearInterval(x);
+      document.getElementById("count-days").innerHTML = "00";
+      document.getElementById("count-hours").innerHTML = "00";
+      document.getElementById("count-mins").innerHTML = "00";
+      document.getElementById("count-sec").innerHTML = "00";
+      return;
+    }
+
+    // Time calculations
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Display result
+    document.getElementById("count-days").innerHTML = ('0' + days).slice(-2);
+    document.getElementById("count-hours").innerHTML = ('0' + hours).slice(-2);
+    document.getElementById("count-mins").innerHTML = ('0' + minutes).slice(-2);
+    document.getElementById("count-sec").innerHTML = ('0' + seconds).slice(-2);
+  }, 1000);
+</script>
+
+	
+      </script>
+
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+    	<i class="lni-chevron-up"></i>
+    </a>
+
+    <div id="preloader">
+      <div class="sk-circle">
+        <div class="sk-circle1 sk-child"></div>
+        <div class="sk-circle2 sk-child"></div>
+        <div class="sk-circle3 sk-child"></div>
+        <div class="sk-circle4 sk-child"></div>
+        <div class="sk-circle5 sk-child"></div>
+        <div class="sk-circle6 sk-child"></div>
+        <div class="sk-circle7 sk-child"></div>
+        <div class="sk-circle8 sk-child"></div>
+        <div class="sk-circle9 sk-child"></div>
+        <div class="sk-circle10 sk-child"></div>
+        <div class="sk-circle11 sk-child"></div>
+        <div class="sk-circle12 sk-child"></div>
+      </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<!-- Include Shery library (local copy or your vendor path) -->
+   
+	<script>
+window.addEventListener('load', function () {
+  // --------- Shery init for sponsors ----------
+  if (typeof Shery !== 'undefined') {
+    Shery.imageEffect("#sponsor-back", {
+      style: 5,
+      config: {
+        a: { value: 2 },
+        b: { value: -0.98 },
+        zindex: { value: 1000 },          // make sure canvas is on top
+        aspect: { value: 3.5686 },        // 728 / 204 ≈ 3.5686
+        gooey: { value: true },
+        infiniteGooey: { value: true },
+        growSize: { value: 4, range: [1, 15] },
+        durationOut: { value: 1 },
+        durationIn: { value: 1 },
+        displaceAmount: { value: 0.5 },
+        masker: { value: true },
+        maskVal: { value: 1.2 },
+        onMouse: { value: 1 },
+        noise_speed: { value: 0.2 },
+        metaball: { value: 0.2 },
+        discard_threshold: { value: 0.5 },
+        noise_height: { value: 0.5 },
+        noise_scale: { value: 10 }
+      },
+      gooey: true
+    });
+  } else {
+    console.error("Shery not found — include assets/js/shery.min.js before this script.");
+  }
+
+  // --------- sponsorHeadanim (simple) ----------
+  window.sponsorHeadanim = function () {
+    var el = document.getElementById('sponsor-main');
+    if (!el) return;
+    // If GSAP present, use it for a snappy micro animation
+    if (typeof gsap !== 'undefined') {
+      gsap.fromTo("#sponsor-main img", { scale: 1 }, { duration: 0.5, scale: 1.06, yoyo: true, repeat: 1, ease: "expo.inOut" });
+    } else {
+      // fallback CSS pulse
+      el.classList.add('sponsor-anim');
+      setTimeout(function () { el.classList.remove('sponsor-anim'); }, 600);
+    }
+  };
+});</script>
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.countdown.min.js"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/nivo-lightbox.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script> function startEverything() {
+      // You can still add any page loading functions here
+      loadQoutes();
+      loadChars();
+      randomBackground();
+
+      // Then fade out loader
+      hideLoader();
+    }
+
+    function loadQoutes() {
+      console.log("Quotes loaded");
+    }
+
+    function loadChars() {
+      console.log("Chars loaded");
+    }
+
+    function randomBackground() {
+      console.log("Background loaded");
+    }
+
+    function hideLoader() {
+      console.log("🔥 hideLoader() called");
+      const loader = document.querySelector('.loader');
+      if (loader) {
+        loader.style.opacity = '0';
+        setTimeout(() => {
+          loader.style.display = 'none';
+        }, 1500);
+      }
+    }</script>	
+	<script>
+	// shery.js 
+// Shery.imageEffect(element, configurations)
+shery = () => {
+Shery.imageEffect("#back", { style: 5, config: { "a": { "value": 2, "range": [0, 30] }, "b": { "value": -0.98, "range": [-1, 1] }, "zindex": { "value": -9996999, "range": [-9999999, 9999999] }, "aspect": { "value": 1.9298998569384835 }, "gooey": { "value": true }, "infiniteGooey": { "value": true }, "growSize": { "value": 4, "range": [1, 15] }, "durationOut": { "value": 1, "range": [0.1, 5] }, "durationIn": { "value": 1, "range": [0.1, 5] }, "displaceAmount": { "value": 0.5 }, "masker": { "value": true }, "maskVal": { "value": 1.2, "range": [1, 5] }, "scrollType": { "value": 0 }, "geoVertex": { "range": [1, 64], "value": 1 }, "noEffectGooey": { "value": false }, "onMouse": { "value": 1 }, "noise_speed": { "value": 0.2, "range": [0, 10] }, "metaball": { "value": 0.2, "range": [0, 2], "_gsap": { "id": 3 } }, "discard_threshold": { "value": 0.5, "range": [0, 1] }, "antialias_threshold": { "value": 0, "range": [0, 0.1] }, "noise_height": { "value": 0.5, "range": [0, 2] }, "noise_scale": { "value": 10, "range": [0, 100] } }, gooey: true })
+}
+shery();
+// -----------------------------------
+
+
+var elems = document.querySelectorAll(".elem");
+
+// elems.forEach(function (elem) {
+// var h1s = elem.querySelectorAll("h1");
+// var index = 0;
+// var animating = false;
+
+// document.querySelector("#main")
+//     .addEventListener("click", function() {
+//         if (!animating){
+//             animating = true;
+
+//             gsap.to(h1s[index], {
+//                 duration: 1,
+//                 top: "-=100%",
+//                 ease: Expo.easeInOut,
+//                 onComplete: function(){
+//                     gsap.set(this._targets[0], {top: "100%"});
+//                     animating = false;
+//                 },
+//             });
+    
+//             index === h1s.length-1 ? (index = 0) : index++;
+    
+//             gsap.to(h1s[index], {
+//                 duration: 1,
+//                 top: "-=100%",
+//                 ease: Expo.easeInOut,
+//             });
+//         }
+//     });
+// })
+
+// for mobile test
+headanim = () =>{
+    elems.forEach(function (elem) {
+        var h1s = elem.querySelectorAll("h1");
+        var index = 0;
+        var animating = false;
+    
+        function animate() {
+            if (!animating){
+                animating = true;
+    
+                gsap.to(h1s[index], {
+                    duration: 1,
+                    top: "-=100%",
+                    ease: Expo.easeInOut,
+                    onComplete: function(){
+                        gsap.set(this._targets[0], {top: "100%"});
+                        animating = false;
+                    },
+                });
+        
+                index === h1s.length-1 ? (index = 0) : index++;
+        
+                gsap.to(h1s[index], {
+                    duration: 1,
+                    top: "-=100%",
+                    ease: Expo.easeInOut,
+                });
+            }
+        }
+    
+        document.querySelector("#main")
+            .addEventListener("click", animate);
+        document.querySelector("#main")
+            .addEventListener("touchstart", animate);
+    })
+}
+headanim();
+</script>
+
+
+  </body>
+</html>
