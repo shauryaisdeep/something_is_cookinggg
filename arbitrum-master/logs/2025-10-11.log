@@ -1,0 +1,1269 @@
+[2025-10-11T20:31:11.057Z] [INFO] 🚀 Initializing Stellar Arbitrage Bot...
+[2025-10-11T20:31:11.058Z] [INFO] 🔧 Setting up middleware...
+[2025-10-11T20:31:11.061Z] [INFO] ✅ Middleware setup complete
+[2025-10-11T20:31:11.063Z] [INFO] 🛣️ Setting up routes...
+[2025-10-11T20:31:11.064Z] [INFO] ✅ Routes setup complete
+[2025-10-11T20:31:11.065Z] [INFO] 🛡️ Setting up error handling...
+[2025-10-11T20:31:11.066Z] [INFO] ✅ Error handling setup complete
+[2025-10-11T20:31:11.066Z] [INFO] 🔧 Initializing services...
+[2025-10-11T20:31:11.070Z] [INFO] ✅ Services initialized
+[2025-10-11T20:31:11.071Z] [INFO] 🗄️ Connecting to MongoDB...
+[2025-10-11T20:31:11.113Z] [INFO] ✅ Connected to MongoDB
+[2025-10-11T20:31:11.117Z] [INFO] 🚀 Server running on port 5000
+[2025-10-11T20:31:11.118Z] [INFO] 📊 API available at: http://localhost:5000
+[2025-10-11T20:31:11.118Z] [INFO] 🔌 WebSocket available at: ws://localhost:5000/ws
+[2025-10-11T20:31:11.119Z] [INFO] 🌐 Environment: development
+[2025-10-11T20:31:11.120Z] [INFO] ✅ Stellar Arbitrage Bot initialized successfully
+[2025-10-11T20:31:33.530Z] [ERROR] GET /api/health - 404 - 5ms {
+  "method": "GET",
+  "url": "/api/health",
+  "statusCode": 404,
+  "responseTime": 5,
+  "userAgent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.6725",
+  "ip": "::1"
+}
+[2025-10-11T20:31:43.760Z] [INFO] GET /api/top-assets/dex-data - 200 - 5878ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 5878,
+  "userAgent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.6725",
+  "ip": "::1"
+}
+[2025-10-11T20:33:36.951Z] [INFO] 🚀 Initializing Stellar Arbitrage Bot...
+[2025-10-11T20:33:36.952Z] [INFO] 🔧 Setting up middleware...
+[2025-10-11T20:33:36.954Z] [INFO] ✅ Middleware setup complete
+[2025-10-11T20:33:36.955Z] [INFO] 🛣️ Setting up routes...
+[2025-10-11T20:33:36.956Z] [INFO] ✅ Routes setup complete
+[2025-10-11T20:33:36.956Z] [INFO] 🛡️ Setting up error handling...
+[2025-10-11T20:33:36.957Z] [INFO] ✅ Error handling setup complete
+[2025-10-11T20:33:36.957Z] [INFO] 🔧 Initializing services...
+[2025-10-11T20:33:36.959Z] [INFO] ✅ Services initialized
+[2025-10-11T20:33:36.960Z] [INFO] 🗄️ Connecting to MongoDB...
+[2025-10-11T20:33:36.991Z] [INFO] ✅ Connected to MongoDB
+[2025-10-11T20:33:36.993Z] [INFO] 🚀 Server running on port 5000
+[2025-10-11T20:33:36.993Z] [INFO] 📊 API available at: http://localhost:5000
+[2025-10-11T20:33:36.994Z] [INFO] 🔌 WebSocket available at: ws://localhost:5000/ws
+[2025-10-11T20:33:36.995Z] [INFO] 🌐 Environment: development
+[2025-10-11T20:33:36.995Z] [INFO] ✅ Stellar Arbitrage Bot initialized successfully
+[2025-10-11T20:36:53.294Z] [INFO] 🚀 Initializing Stellar Arbitrage Bot...
+[2025-10-11T20:36:53.295Z] [INFO] 🔧 Setting up middleware...
+[2025-10-11T20:36:53.298Z] [INFO] ✅ Middleware setup complete
+[2025-10-11T20:36:53.299Z] [INFO] 🛣️ Setting up routes...
+[2025-10-11T20:36:53.300Z] [INFO] ✅ Routes setup complete
+[2025-10-11T20:36:53.300Z] [INFO] 🛡️ Setting up error handling...
+[2025-10-11T20:36:53.301Z] [INFO] ✅ Error handling setup complete
+[2025-10-11T20:36:53.302Z] [INFO] 🔧 Initializing services...
+[2025-10-11T20:36:53.304Z] [INFO] ✅ Services initialized
+[2025-10-11T20:36:53.305Z] [INFO] 🗄️ Connecting to MongoDB...
+[2025-10-11T20:36:53.341Z] [INFO] ✅ Connected to MongoDB
+[2025-10-11T20:36:53.343Z] [INFO] 🚀 Server running on port 5000
+[2025-10-11T20:36:53.343Z] [INFO] 📊 API available at: http://localhost:5000
+[2025-10-11T20:36:53.344Z] [INFO] 🔌 WebSocket available at: ws://localhost:5000/ws
+[2025-10-11T20:36:53.344Z] [INFO] 🌐 Environment: development
+[2025-10-11T20:36:53.345Z] [INFO] ✅ Stellar Arbitrage Bot initialized successfully
+[2025-10-11T20:39:15.588Z] [INFO] 🚀 Initializing Stellar Arbitrage Bot...
+[2025-10-11T20:39:15.589Z] [INFO] 🔧 Setting up middleware...
+[2025-10-11T20:39:15.593Z] [INFO] ✅ Middleware setup complete
+[2025-10-11T20:39:15.593Z] [INFO] 🛣️ Setting up routes...
+[2025-10-11T20:39:15.595Z] [INFO] ✅ Routes setup complete
+[2025-10-11T20:39:15.596Z] [INFO] 🛡️ Setting up error handling...
+[2025-10-11T20:39:15.597Z] [INFO] ✅ Error handling setup complete
+[2025-10-11T20:39:15.598Z] [INFO] 🔧 Initializing services...
+[2025-10-11T20:39:15.602Z] [INFO] ✅ Services initialized
+[2025-10-11T20:39:15.604Z] [INFO] 🗄️ Connecting to MongoDB...
+[2025-10-11T20:39:15.645Z] [INFO] ✅ Connected to MongoDB
+[2025-10-11T20:39:15.648Z] [INFO] 🚀 Server running on port 5000
+[2025-10-11T20:39:15.649Z] [INFO] 📊 API available at: http://localhost:5000
+[2025-10-11T20:39:15.650Z] [INFO] 🔌 WebSocket available at: ws://localhost:5000/ws
+[2025-10-11T20:39:15.650Z] [INFO] 🌐 Environment: development
+[2025-10-11T20:39:15.651Z] [INFO] ✅ Stellar Arbitrage Bot initialized successfully
+[2025-10-11T20:39:53.133Z] [INFO] 🚀 Initializing Stellar Arbitrage Bot...
+[2025-10-11T20:39:53.134Z] [INFO] 🔧 Setting up middleware...
+[2025-10-11T20:39:53.137Z] [INFO] ✅ Middleware setup complete
+[2025-10-11T20:39:53.138Z] [INFO] 🛣️ Setting up routes...
+[2025-10-11T20:39:53.139Z] [INFO] ✅ Routes setup complete
+[2025-10-11T20:39:53.140Z] [INFO] 🛡️ Setting up error handling...
+[2025-10-11T20:39:53.140Z] [INFO] ✅ Error handling setup complete
+[2025-10-11T20:39:53.141Z] [INFO] 🔧 Initializing services...
+[2025-10-11T20:39:53.142Z] [INFO] ✅ Services initialized
+[2025-10-11T20:39:53.143Z] [INFO] 🗄️ Connecting to MongoDB...
+[2025-10-11T20:39:53.175Z] [INFO] ✅ Connected to MongoDB
+[2025-10-11T20:39:53.178Z] [INFO] 🚀 Server running on port 5000
+[2025-10-11T20:39:53.178Z] [INFO] 📊 API available at: http://localhost:5000
+[2025-10-11T20:39:53.179Z] [INFO] 🔌 WebSocket available at: ws://localhost:5000/ws
+[2025-10-11T20:39:53.180Z] [INFO] 🌐 Environment: development
+[2025-10-11T20:39:53.182Z] [INFO] ✅ Stellar Arbitrage Bot initialized successfully
+[2025-10-11T20:40:18.351Z] [INFO] GET /api/top-assets/dex-data - 200 - 14866ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 14866,
+  "userAgent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.6725",
+  "ip": "::1"
+}
+[2025-10-11T20:40:43.724Z] [INFO] POST /api/fast-arbitrage/run - 200 - 14309ms {
+  "method": "POST",
+  "url": "/api/fast-arbitrage/run",
+  "statusCode": 200,
+  "responseTime": 14309,
+  "userAgent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.6725",
+  "ip": "::1"
+}
+[2025-10-11T20:42:23.033Z] [INFO] 🚀 Initializing Stellar Arbitrage Bot...
+[2025-10-11T20:42:23.034Z] [INFO] 🔧 Setting up middleware...
+[2025-10-11T20:42:23.037Z] [INFO] ✅ Middleware setup complete
+[2025-10-11T20:42:23.039Z] [INFO] 🛣️ Setting up routes...
+[2025-10-11T20:42:23.041Z] [INFO] ✅ Routes setup complete
+[2025-10-11T20:42:23.042Z] [INFO] 🛡️ Setting up error handling...
+[2025-10-11T20:42:23.043Z] [INFO] ✅ Error handling setup complete
+[2025-10-11T20:42:23.044Z] [INFO] 🔧 Initializing services...
+[2025-10-11T20:42:23.049Z] [INFO] ✅ Services initialized
+[2025-10-11T20:42:23.051Z] [INFO] 🗄️ Connecting to MongoDB...
+[2025-10-11T20:42:23.106Z] [INFO] ✅ Connected to MongoDB
+[2025-10-11T20:42:23.110Z] [INFO] 🚀 Server running on port 5000
+[2025-10-11T20:42:23.110Z] [INFO] 📊 API available at: http://localhost:5000
+[2025-10-11T20:42:23.111Z] [INFO] 🔌 WebSocket available at: ws://localhost:5000/ws
+[2025-10-11T20:42:23.112Z] [INFO] 🌐 Environment: development
+[2025-10-11T20:42:23.113Z] [INFO] ✅ Stellar Arbitrage Bot initialized successfully
+[2025-10-11T20:42:37.485Z] [INFO] 🚀 Initializing Stellar Arbitrage Bot...
+[2025-10-11T20:42:37.486Z] [INFO] 🔧 Setting up middleware...
+[2025-10-11T20:42:37.491Z] [INFO] ✅ Middleware setup complete
+[2025-10-11T20:42:37.492Z] [INFO] 🛣️ Setting up routes...
+[2025-10-11T20:42:37.493Z] [INFO] ✅ Routes setup complete
+[2025-10-11T20:42:37.494Z] [INFO] 🛡️ Setting up error handling...
+[2025-10-11T20:42:37.495Z] [INFO] ✅ Error handling setup complete
+[2025-10-11T20:42:37.496Z] [INFO] 🔧 Initializing services...
+[2025-10-11T20:42:37.499Z] [INFO] ✅ Services initialized
+[2025-10-11T20:42:37.501Z] [INFO] 🗄️ Connecting to MongoDB...
+[2025-10-11T20:42:37.544Z] [INFO] ✅ Connected to MongoDB
+[2025-10-11T20:42:37.548Z] [INFO] 🚀 Server running on port 5000
+[2025-10-11T20:42:37.548Z] [INFO] 📊 API available at: http://localhost:5000
+[2025-10-11T20:42:37.549Z] [INFO] 🔌 WebSocket available at: ws://localhost:5000/ws
+[2025-10-11T20:42:37.550Z] [INFO] 🌐 Environment: development
+[2025-10-11T20:42:37.550Z] [INFO] ✅ Stellar Arbitrage Bot initialized successfully
+[2025-10-11T20:42:44.185Z] [INFO] 🚀 Initializing Stellar Arbitrage Bot...
+[2025-10-11T20:42:44.185Z] [INFO] 🔧 Setting up middleware...
+[2025-10-11T20:42:44.188Z] [INFO] ✅ Middleware setup complete
+[2025-10-11T20:42:44.189Z] [INFO] 🛣️ Setting up routes...
+[2025-10-11T20:42:44.189Z] [INFO] ✅ Routes setup complete
+[2025-10-11T20:42:44.190Z] [INFO] 🛡️ Setting up error handling...
+[2025-10-11T20:42:44.191Z] [INFO] ✅ Error handling setup complete
+[2025-10-11T20:42:44.191Z] [INFO] 🔧 Initializing services...
+[2025-10-11T20:42:44.193Z] [INFO] ✅ Services initialized
+[2025-10-11T20:42:44.194Z] [INFO] 🗄️ Connecting to MongoDB...
+[2025-10-11T20:42:44.234Z] [INFO] ✅ Connected to MongoDB
+[2025-10-11T20:42:44.237Z] [INFO] 🚀 Server running on port 5000
+[2025-10-11T20:42:44.237Z] [INFO] 📊 API available at: http://localhost:5000
+[2025-10-11T20:42:44.238Z] [INFO] 🔌 WebSocket available at: ws://localhost:5000/ws
+[2025-10-11T20:42:44.238Z] [INFO] 🌐 Environment: development
+[2025-10-11T20:42:44.239Z] [INFO] ✅ Stellar Arbitrage Bot initialized successfully
+[2025-10-11T21:01:29.162Z] [INFO] 🚀 Initializing Stellar Arbitrage Bot...
+[2025-10-11T21:01:29.163Z] [INFO] 🔧 Setting up middleware...
+[2025-10-11T21:01:29.167Z] [INFO] ✅ Middleware setup complete
+[2025-10-11T21:01:29.167Z] [INFO] 🛣️ Setting up routes...
+[2025-10-11T21:01:29.168Z] [INFO] ✅ Routes setup complete
+[2025-10-11T21:01:29.169Z] [INFO] 🛡️ Setting up error handling...
+[2025-10-11T21:01:29.169Z] [INFO] ✅ Error handling setup complete
+[2025-10-11T21:01:29.170Z] [INFO] 🔧 Initializing services...
+[2025-10-11T21:01:29.172Z] [INFO] ✅ Services initialized
+[2025-10-11T21:01:29.174Z] [INFO] 🗄️ Connecting to MongoDB...
+[2025-10-11T21:01:29.226Z] [INFO] ✅ Connected to MongoDB
+[2025-10-11T21:01:29.229Z] [INFO] 🚀 Server running on port 5000
+[2025-10-11T21:01:29.230Z] [INFO] 📊 API available at: http://localhost:5000
+[2025-10-11T21:01:29.231Z] [INFO] 🔌 WebSocket available at: ws://localhost:5000/ws
+[2025-10-11T21:01:29.231Z] [INFO] 🌐 Environment: development
+[2025-10-11T21:01:29.232Z] [INFO] ✅ Stellar Arbitrage Bot initialized successfully
+[2025-10-11T21:01:53.821Z] [INFO] GET /api/top-assets/dex-data - 200 - 22709ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 22709,
+  "userAgent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.6725",
+  "ip": "::1"
+}
+[2025-10-11T21:04:19.292Z] [INFO] 🚀 Initializing Stellar Arbitrage Bot...
+[2025-10-11T21:04:19.293Z] [INFO] 🔧 Setting up middleware...
+[2025-10-11T21:04:19.296Z] [INFO] ✅ Middleware setup complete
+[2025-10-11T21:04:19.297Z] [INFO] 🛣️ Setting up routes...
+[2025-10-11T21:04:19.298Z] [INFO] ✅ Routes setup complete
+[2025-10-11T21:04:19.298Z] [INFO] 🛡️ Setting up error handling...
+[2025-10-11T21:04:19.299Z] [INFO] ✅ Error handling setup complete
+[2025-10-11T21:04:19.300Z] [INFO] 🔧 Initializing services...
+[2025-10-11T21:04:19.302Z] [INFO] ✅ Services initialized
+[2025-10-11T21:04:19.304Z] [INFO] 🗄️ Connecting to MongoDB...
+[2025-10-11T21:04:19.345Z] [INFO] ✅ Connected to MongoDB
+[2025-10-11T21:04:19.348Z] [INFO] 🚀 Server running on port 5000
+[2025-10-11T21:04:19.349Z] [INFO] 📊 API available at: http://localhost:5000
+[2025-10-11T21:04:19.349Z] [INFO] 🔌 WebSocket available at: ws://localhost:5000/ws
+[2025-10-11T21:04:19.350Z] [INFO] 🌐 Environment: development
+[2025-10-11T21:04:19.351Z] [INFO] ✅ Stellar Arbitrage Bot initialized successfully
+[2025-10-11T21:04:45.010Z] [INFO] GET /api/top-assets/dex-data - 200 - 22812ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 22812,
+  "userAgent": "Trading-Pairs-Tester/1.0.0",
+  "ip": "::1"
+}
+[2025-10-11T21:07:00.661Z] [INFO] 🚀 Initializing Stellar Arbitrage Bot...
+[2025-10-11T21:07:00.662Z] [INFO] 🔧 Setting up middleware...
+[2025-10-11T21:07:00.666Z] [INFO] ✅ Middleware setup complete
+[2025-10-11T21:07:00.667Z] [INFO] 🛣️ Setting up routes...
+[2025-10-11T21:07:00.668Z] [INFO] ✅ Routes setup complete
+[2025-10-11T21:07:00.669Z] [INFO] 🛡️ Setting up error handling...
+[2025-10-11T21:07:00.671Z] [INFO] ✅ Error handling setup complete
+[2025-10-11T21:07:00.671Z] [INFO] 🔧 Initializing services...
+[2025-10-11T21:07:00.674Z] [INFO] ✅ Services initialized
+[2025-10-11T21:07:00.675Z] [INFO] 🗄️ Connecting to MongoDB...
+[2025-10-11T21:07:00.712Z] [INFO] ✅ Connected to MongoDB
+[2025-10-11T21:07:00.714Z] [INFO] 🚀 Server running on port 5000
+[2025-10-11T21:07:00.715Z] [INFO] 📊 API available at: http://localhost:5000
+[2025-10-11T21:07:00.715Z] [INFO] 🔌 WebSocket available at: ws://localhost:5000/ws
+[2025-10-11T21:07:00.716Z] [INFO] 🌐 Environment: development
+[2025-10-11T21:07:00.716Z] [INFO] ✅ Stellar Arbitrage Bot initialized successfully
+[2025-10-11T21:07:32.080Z] [INFO] 🚀 Initializing Stellar Arbitrage Bot...
+[2025-10-11T21:07:32.080Z] [INFO] 🔧 Setting up middleware...
+[2025-10-11T21:07:32.084Z] [INFO] ✅ Middleware setup complete
+[2025-10-11T21:07:32.084Z] [INFO] 🛣️ Setting up routes...
+[2025-10-11T21:07:32.085Z] [INFO] ✅ Routes setup complete
+[2025-10-11T21:07:32.085Z] [INFO] 🛡️ Setting up error handling...
+[2025-10-11T21:07:32.086Z] [INFO] ✅ Error handling setup complete
+[2025-10-11T21:07:32.086Z] [INFO] 🔧 Initializing services...
+[2025-10-11T21:07:32.088Z] [INFO] ✅ Services initialized
+[2025-10-11T21:07:32.089Z] [INFO] 🗄️ Connecting to MongoDB...
+[2025-10-11T21:07:32.120Z] [INFO] ✅ Connected to MongoDB
+[2025-10-11T21:07:32.122Z] [INFO] 🚀 Server running on port 5000
+[2025-10-11T21:07:32.122Z] [INFO] 📊 API available at: http://localhost:5000
+[2025-10-11T21:07:32.123Z] [INFO] 🔌 WebSocket available at: ws://localhost:5000/ws
+[2025-10-11T21:07:32.123Z] [INFO] 🌐 Environment: development
+[2025-10-11T21:07:32.124Z] [INFO] ✅ Stellar Arbitrage Bot initialized successfully
+[2025-10-11T21:08:48.428Z] [INFO] 🚀 Initializing Stellar Arbitrage Bot...
+[2025-10-11T21:08:48.429Z] [INFO] 🔧 Setting up middleware...
+[2025-10-11T21:08:48.432Z] [INFO] ✅ Middleware setup complete
+[2025-10-11T21:08:48.432Z] [INFO] 🛣️ Setting up routes...
+[2025-10-11T21:08:48.433Z] [INFO] ✅ Routes setup complete
+[2025-10-11T21:08:48.434Z] [INFO] 🛡️ Setting up error handling...
+[2025-10-11T21:08:48.434Z] [INFO] ✅ Error handling setup complete
+[2025-10-11T21:08:48.435Z] [INFO] 🔧 Initializing services...
+[2025-10-11T21:08:48.437Z] [INFO] ✅ Services initialized
+[2025-10-11T21:08:48.438Z] [INFO] 🗄️ Connecting to MongoDB...
+[2025-10-11T21:08:48.474Z] [INFO] ✅ Connected to MongoDB
+[2025-10-11T21:08:48.477Z] [INFO] 🚀 Server running on port 5000
+[2025-10-11T21:08:48.477Z] [INFO] 📊 API available at: http://localhost:5000
+[2025-10-11T21:08:48.478Z] [INFO] 🔌 WebSocket available at: ws://localhost:5000/ws
+[2025-10-11T21:08:48.479Z] [INFO] 🌐 Environment: development
+[2025-10-11T21:08:48.479Z] [INFO] ✅ Stellar Arbitrage Bot initialized successfully
+[2025-10-11T21:09:12.000Z] [INFO] 🚀 Initializing Stellar Arbitrage Bot...
+[2025-10-11T21:09:12.002Z] [INFO] 🔧 Setting up middleware...
+[2025-10-11T21:09:12.007Z] [INFO] ✅ Middleware setup complete
+[2025-10-11T21:09:12.008Z] [INFO] 🛣️ Setting up routes...
+[2025-10-11T21:09:12.009Z] [INFO] ✅ Routes setup complete
+[2025-10-11T21:09:12.010Z] [INFO] 🛡️ Setting up error handling...
+[2025-10-11T21:09:12.011Z] [INFO] ✅ Error handling setup complete
+[2025-10-11T21:09:12.011Z] [INFO] 🔧 Initializing services...
+[2025-10-11T21:09:12.014Z] [INFO] ✅ Services initialized
+[2025-10-11T21:09:12.016Z] [INFO] 🗄️ Connecting to MongoDB...
+[2025-10-11T21:09:12.048Z] [INFO] ✅ Connected to MongoDB
+[2025-10-11T21:09:12.051Z] [INFO] 🚀 Server running on port 5000
+[2025-10-11T21:09:12.052Z] [INFO] 📊 API available at: http://localhost:5000
+[2025-10-11T21:09:12.052Z] [INFO] 🔌 WebSocket available at: ws://localhost:5000/ws
+[2025-10-11T21:09:12.053Z] [INFO] 🌐 Environment: development
+[2025-10-11T21:09:12.053Z] [INFO] ✅ Stellar Arbitrage Bot initialized successfully
+[2025-10-11T21:11:49.572Z] [INFO] 🚀 Initializing Stellar Arbitrage Bot...
+[2025-10-11T21:11:49.573Z] [INFO] 🔧 Setting up middleware...
+[2025-10-11T21:11:49.576Z] [INFO] ✅ Middleware setup complete
+[2025-10-11T21:11:49.577Z] [INFO] 🛣️ Setting up routes...
+[2025-10-11T21:11:49.578Z] [INFO] ✅ Routes setup complete
+[2025-10-11T21:11:49.579Z] [INFO] 🛡️ Setting up error handling...
+[2025-10-11T21:11:49.579Z] [INFO] ✅ Error handling setup complete
+[2025-10-11T21:11:49.580Z] [INFO] 🔧 Initializing services...
+[2025-10-11T21:11:49.582Z] [INFO] ✅ Services initialized
+[2025-10-11T21:11:49.586Z] [INFO] 🗄️ Connecting to MongoDB...
+[2025-10-11T21:11:49.634Z] [INFO] ✅ Connected to MongoDB
+[2025-10-11T21:11:49.638Z] [INFO] 🚀 Server running on port 5000
+[2025-10-11T21:11:49.639Z] [INFO] 📊 API available at: http://localhost:5000
+[2025-10-11T21:11:49.640Z] [INFO] 🔌 WebSocket available at: ws://localhost:5000/ws
+[2025-10-11T21:11:49.641Z] [INFO] 🌐 Environment: development
+[2025-10-11T21:11:49.643Z] [INFO] ✅ Stellar Arbitrage Bot initialized successfully
+[2025-10-11T21:11:55.711Z] [INFO] 🚀 Initializing Stellar Arbitrage Bot...
+[2025-10-11T21:11:55.712Z] [INFO] 🔧 Setting up middleware...
+[2025-10-11T21:11:55.715Z] [INFO] ✅ Middleware setup complete
+[2025-10-11T21:11:55.716Z] [INFO] 🛣️ Setting up routes...
+[2025-10-11T21:11:55.717Z] [INFO] ✅ Routes setup complete
+[2025-10-11T21:11:55.717Z] [INFO] 🛡️ Setting up error handling...
+[2025-10-11T21:11:55.718Z] [INFO] ✅ Error handling setup complete
+[2025-10-11T21:11:55.719Z] [INFO] 🔧 Initializing services...
+[2025-10-11T21:11:55.720Z] [INFO] ✅ Services initialized
+[2025-10-11T21:11:55.722Z] [INFO] 🗄️ Connecting to MongoDB...
+[2025-10-11T21:11:55.750Z] [INFO] ✅ Connected to MongoDB
+[2025-10-11T21:11:55.752Z] [INFO] 🚀 Server running on port 5000
+[2025-10-11T21:11:55.752Z] [INFO] 📊 API available at: http://localhost:5000
+[2025-10-11T21:11:55.753Z] [INFO] 🔌 WebSocket available at: ws://localhost:5000/ws
+[2025-10-11T21:11:55.754Z] [INFO] 🌐 Environment: development
+[2025-10-11T21:11:55.754Z] [INFO] ✅ Stellar Arbitrage Bot initialized successfully
+[2025-10-11T21:15:12.651Z] [INFO] 🔗 Client connected: client_1760217312649_ll6jlra1h
+[2025-10-11T21:15:12.663Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T21:15:12.664Z] [INFO] 🔗 Client connected: client_1760217312664_g6783fk8s
+[2025-10-11T21:15:12.665Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T21:15:18.784Z] [INFO] 🔗 Client connected: client_1760217318666_b1xtt32oe
+[2025-10-11T21:15:18.802Z] [INFO] 📡 Client client_1760217318666_b1xtt32oe subscribed to: market_data
+[2025-10-11T21:15:18.822Z] [INFO] 📡 Client client_1760217318666_b1xtt32oe subscribed to: arbitrage
+[2025-10-11T21:15:18.825Z] [INFO] 📡 Client client_1760217318666_b1xtt32oe subscribed to: trades
+[2025-10-11T21:17:32.870Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T21:26:20.518Z] [INFO] 🚀 Initializing Stellar Arbitrage Bot...
+[2025-10-11T21:26:20.519Z] [INFO] 🔧 Setting up middleware...
+[2025-10-11T21:26:20.521Z] [INFO] ✅ Middleware setup complete
+[2025-10-11T21:26:20.522Z] [INFO] 🛣️ Setting up routes...
+[2025-10-11T21:26:20.523Z] [INFO] ✅ Routes setup complete
+[2025-10-11T21:26:20.524Z] [INFO] 🛡️ Setting up error handling...
+[2025-10-11T21:26:20.526Z] [INFO] ✅ Error handling setup complete
+[2025-10-11T21:26:20.526Z] [INFO] 🔧 Initializing services...
+[2025-10-11T21:26:20.528Z] [INFO] ✅ Services initialized
+[2025-10-11T21:26:20.530Z] [INFO] 🗄️ Connecting to MongoDB...
+[2025-10-11T21:26:20.562Z] [INFO] ✅ Connected to MongoDB
+[2025-10-11T21:26:20.564Z] [INFO] 🚀 Server running on port 5000
+[2025-10-11T21:26:20.565Z] [INFO] 📊 API available at: http://localhost:5000
+[2025-10-11T21:26:20.566Z] [INFO] 🔌 WebSocket available at: ws://localhost:5000/ws
+[2025-10-11T21:26:20.566Z] [INFO] 🌐 Environment: development
+[2025-10-11T21:26:20.567Z] [INFO] ✅ Stellar Arbitrage Bot initialized successfully
+[2025-10-11T21:26:23.255Z] [INFO] 🔗 Client connected: client_1760217983241_zlbjxcir2
+[2025-10-11T21:26:23.268Z] [INFO] 📡 Client client_1760217983241_zlbjxcir2 subscribed to: market_data
+[2025-10-11T21:26:23.272Z] [INFO] 📡 Client client_1760217983241_zlbjxcir2 subscribed to: arbitrage
+[2025-10-11T21:26:23.281Z] [INFO] 📡 Client client_1760217983241_zlbjxcir2 subscribed to: trades
+[2025-10-11T21:26:35.159Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T21:26:35.171Z] [INFO] 🔗 Client connected: client_1760217995166_kn8i74f9d
+[2025-10-11T21:26:35.181Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T21:26:35.190Z] [INFO] 🔗 Client connected: client_1760217995185_2z0epu0a7
+[2025-10-11T21:26:35.196Z] [INFO] 📡 Client client_1760217995185_2z0epu0a7 subscribed to: market_data
+[2025-10-11T21:26:35.200Z] [INFO] 📡 Client client_1760217995185_2z0epu0a7 subscribed to: arbitrage
+[2025-10-11T21:26:35.205Z] [INFO] 📡 Client client_1760217995185_2z0epu0a7 subscribed to: trades
+[2025-10-11T21:26:38.158Z] [INFO] 🔗 Client connected: client_1760217998156_3otdgpihn
+[2025-10-11T21:26:38.159Z] [INFO] 📡 Client client_1760217998156_3otdgpihn subscribed to: market_data
+[2025-10-11T21:26:38.161Z] [INFO] 📡 Client client_1760217998156_3otdgpihn subscribed to: arbitrage
+[2025-10-11T21:26:38.163Z] [INFO] 📡 Client client_1760217998156_3otdgpihn subscribed to: trades
+[2025-10-11T21:26:57.036Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T21:26:57.037Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T21:26:57.490Z] [INFO] 🔗 Client connected: client_1760218017483_80182kap2
+[2025-10-11T21:26:57.509Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T21:26:57.519Z] [INFO] 🔗 Client connected: client_1760218017514_hyzmzv8mp
+[2025-10-11T21:26:57.532Z] [INFO] 📡 Client client_1760218017514_hyzmzv8mp subscribed to: market_data
+[2025-10-11T21:26:57.536Z] [INFO] 📡 Client client_1760218017514_hyzmzv8mp subscribed to: arbitrage
+[2025-10-11T21:26:57.541Z] [INFO] 📡 Client client_1760218017514_hyzmzv8mp subscribed to: trades
+[2025-10-11T21:27:00.914Z] [INFO] 🔗 Client connected: client_1760218020913_ob4adck0w
+[2025-10-11T21:27:00.915Z] [INFO] 📡 Client client_1760218020913_ob4adck0w subscribed to: market_data
+[2025-10-11T21:27:00.916Z] [INFO] 📡 Client client_1760218020913_ob4adck0w subscribed to: arbitrage
+[2025-10-11T21:27:00.917Z] [INFO] 📡 Client client_1760218020913_ob4adck0w subscribed to: trades
+[2025-10-11T21:27:18.534Z] [INFO] GET /api/top-assets/dex-data - 200 - 11ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 11,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T21:27:18.599Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T21:27:28.382Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T21:27:28.742Z] [INFO] 🔗 Client connected: client_1760218048741_kqtchow2q
+[2025-10-11T21:27:28.750Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T21:27:28.757Z] [INFO] 🔗 Client connected: client_1760218048754_zsalhjkua
+[2025-10-11T21:27:28.765Z] [INFO] 📡 Client client_1760218048754_zsalhjkua subscribed to: market_data
+[2025-10-11T21:27:28.767Z] [INFO] 📡 Client client_1760218048754_zsalhjkua subscribed to: arbitrage
+[2025-10-11T21:27:28.771Z] [INFO] 📡 Client client_1760218048754_zsalhjkua subscribed to: trades
+[2025-10-11T21:27:29.790Z] [INFO] GET /api/top-assets/dex-data - 200 - 22ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 22,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T21:27:29.807Z] [INFO] GET /api/top-assets/dex-data - 200 - 15ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 15,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T21:27:29.810Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T21:27:32.277Z] [INFO] 🔗 Client connected: client_1760218052275_1nf3j98jj
+[2025-10-11T21:27:32.282Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T21:27:32.291Z] [INFO] 🔗 Client connected: client_1760218052290_jl9y0ri1k
+[2025-10-11T21:27:32.294Z] [INFO] 📡 Client client_1760218052290_jl9y0ri1k subscribed to: market_data
+[2025-10-11T21:27:32.295Z] [INFO] 📡 Client client_1760218052290_jl9y0ri1k subscribed to: arbitrage
+[2025-10-11T21:27:32.298Z] [INFO] 📡 Client client_1760218052290_jl9y0ri1k subscribed to: trades
+[2025-10-11T21:27:33.297Z] [INFO] GET /api/top-assets/dex-data - 200 - 10ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 10,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T21:27:33.315Z] [INFO] GET /api/top-assets/dex-data - 200 - 15ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 15,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T21:27:33.318Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T21:27:36.954Z] [INFO] 🔗 Client connected: client_1760218056953_c6txmbbpg
+[2025-10-11T21:27:36.962Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T21:27:36.972Z] [INFO] 🔗 Client connected: client_1760218056969_pwot7u9w8
+[2025-10-11T21:27:36.977Z] [INFO] 📡 Client client_1760218056969_pwot7u9w8 subscribed to: market_data
+[2025-10-11T21:27:36.980Z] [INFO] 📡 Client client_1760218056969_pwot7u9w8 subscribed to: arbitrage
+[2025-10-11T21:27:36.985Z] [INFO] 📡 Client client_1760218056969_pwot7u9w8 subscribed to: trades
+[2025-10-11T21:27:39.960Z] [INFO] 🔗 Client connected: client_1760218059959_l6tgxe4m5
+[2025-10-11T21:27:39.961Z] [INFO] 📡 Client client_1760218059959_l6tgxe4m5 subscribed to: market_data
+[2025-10-11T21:27:39.962Z] [INFO] 📡 Client client_1760218059959_l6tgxe4m5 subscribed to: arbitrage
+[2025-10-11T21:27:39.963Z] [INFO] 📡 Client client_1760218059959_l6tgxe4m5 subscribed to: trades
+[2025-10-11T21:27:43.767Z] [INFO] GET /api/top-assets/dex-data - 200 - 13ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 13,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T21:27:43.782Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T21:27:43.786Z] [INFO] GET /api/top-assets/dex-data - 200 - 17ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 17,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T21:28:51.469Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T21:28:51.974Z] [INFO] 🔗 Client connected: client_1760218131966_i90eb41ie
+[2025-10-11T21:28:51.986Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T21:28:51.997Z] [INFO] 🔗 Client connected: client_1760218131989_k45x917fh
+[2025-10-11T21:28:52.011Z] [INFO] 📡 Client client_1760218131989_k45x917fh subscribed to: market_data
+[2025-10-11T21:28:52.021Z] [INFO] 📡 Client client_1760218131989_k45x917fh subscribed to: arbitrage
+[2025-10-11T21:28:52.029Z] [INFO] 📡 Client client_1760218131989_k45x917fh subscribed to: trades
+[2025-10-11T21:28:53.040Z] [INFO] GET /api/top-assets/dex-data - 200 - 40ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 40,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T21:28:53.060Z] [INFO] GET /api/top-assets/dex-data - 200 - 13ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 13,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T21:28:53.079Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T21:32:35.987Z] [INFO] 🔗 Client connected: client_1760218355986_tgc9wlaic
+[2025-10-11T21:32:35.989Z] [INFO] 📡 Client client_1760218355986_tgc9wlaic subscribed to: market_data
+[2025-10-11T21:32:35.991Z] [INFO] 📡 Client client_1760218355986_tgc9wlaic subscribed to: arbitrage
+[2025-10-11T21:32:35.993Z] [INFO] 📡 Client client_1760218355986_tgc9wlaic subscribed to: trades
+[2025-10-11T21:32:37.942Z] [INFO] GET /api/top-assets/dex-data - 200 - 7ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 7,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T21:32:37.953Z] [INFO] GET /api/top-assets/dex-data - 200 - 9ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 9,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T21:32:39.508Z] [INFO] 🔗 Client connected: client_1760218359506_tqyl5xf6c
+[2025-10-11T21:32:39.511Z] [INFO] 📡 Client client_1760218359506_tqyl5xf6c subscribed to: market_data
+[2025-10-11T21:32:39.517Z] [INFO] 📡 Client client_1760218359506_tqyl5xf6c subscribed to: arbitrage
+[2025-10-11T21:32:39.521Z] [INFO] 📡 Client client_1760218359506_tqyl5xf6c subscribed to: trades
+[2025-10-11T21:33:56.905Z] [INFO] POST /api/fast-arbitrage/run - 200 - 1ms {
+  "method": "POST",
+  "url": "/api/fast-arbitrage/run",
+  "statusCode": 200,
+  "responseTime": 1,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T21:46:07.616Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T21:46:07.618Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T22:07:43.189Z] [INFO] 🔗 Client connected: client_1760220463187_vbvc0ft20
+[2025-10-11T22:07:43.204Z] [INFO] 📡 Client client_1760220463187_vbvc0ft20 subscribed to: market_data
+[2025-10-11T22:07:43.207Z] [INFO] 📡 Client client_1760220463187_vbvc0ft20 subscribed to: arbitrage
+[2025-10-11T22:07:43.210Z] [INFO] 📡 Client client_1760220463187_vbvc0ft20 subscribed to: trades
+[2025-10-11T22:07:53.443Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T22:07:53.963Z] [INFO] 🔗 Client connected: client_1760220473957_1x0oaceiy
+[2025-10-11T22:07:53.986Z] [INFO] 📡 Client client_1760220473957_1x0oaceiy subscribed to: market_data
+[2025-10-11T22:07:53.988Z] [INFO] 📡 Client client_1760220473957_1x0oaceiy subscribed to: arbitrage
+[2025-10-11T22:07:54.013Z] [INFO] 📡 Client client_1760220473957_1x0oaceiy subscribed to: trades
+[2025-10-11T22:08:07.560Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T22:08:15.032Z] [INFO] 🔗 Client connected: client_1760220495024_3mjerrdk6
+[2025-10-11T22:08:15.119Z] [INFO] 📡 Client client_1760220495024_3mjerrdk6 subscribed to: market_data
+[2025-10-11T22:08:15.122Z] [INFO] 📡 Client client_1760220495024_3mjerrdk6 subscribed to: arbitrage
+[2025-10-11T22:08:15.126Z] [INFO] 📡 Client client_1760220495024_3mjerrdk6 subscribed to: trades
+[2025-10-11T22:09:12.074Z] [INFO] GET /api/top-assets/dex-data - 200 - 12ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 12,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:09:24.089Z] [INFO] GET /api/top-assets/dex-data - 200 - 19ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 19,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:10:51.120Z] [ERROR] GET /api/realtime/data - 404 - 14ms {
+  "method": "GET",
+  "url": "/api/realtime/data",
+  "statusCode": 404,
+  "responseTime": 14,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:10:51.211Z] [ERROR] GET /api/realtime/data - 404 - 6ms {
+  "method": "GET",
+  "url": "/api/realtime/data",
+  "statusCode": 404,
+  "responseTime": 6,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:10:52.022Z] [INFO] 🔗 Client connected: client_1760220652020_io9nl43yo
+[2025-10-11T22:10:52.035Z] [INFO] 🔗 Client connected: client_1760220652034_jlj6ij72x
+[2025-10-11T22:10:58.446Z] [ERROR] GET /api/trades/history - 404 - 1ms {
+  "method": "GET",
+  "url": "/api/trades/history",
+  "statusCode": 404,
+  "responseTime": 1,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:13.911Z] [INFO] POST /api/fast-arbitrage/run - 200 - 2ms {
+  "method": "POST",
+  "url": "/api/fast-arbitrage/run",
+  "statusCode": 200,
+  "responseTime": 2,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:28.786Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T22:11:28.788Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T22:11:29.379Z] [ERROR] GET /api/realtime/data - 404 - 3ms {
+  "method": "GET",
+  "url": "/api/realtime/data",
+  "statusCode": 404,
+  "responseTime": 3,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:29.396Z] [ERROR] GET /api/realtime/data - 404 - 2ms {
+  "method": "GET",
+  "url": "/api/realtime/data",
+  "statusCode": 404,
+  "responseTime": 2,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:30.353Z] [INFO] 🔗 Client connected: client_1760220690352_mywvggt25
+[2025-10-11T22:11:30.366Z] [INFO] 🔗 Client connected: client_1760220690365_fi49vf7d0
+[2025-10-11T22:11:34.173Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T22:11:34.176Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T22:11:34.836Z] [ERROR] GET /api/math/analyze - 404 - 1ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 1,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:34.859Z] [ERROR] GET /api/realtime/data - 404 - 3ms {
+  "method": "GET",
+  "url": "/api/realtime/data",
+  "statusCode": 404,
+  "responseTime": 3,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:34.876Z] [ERROR] GET /api/math/analyze - 404 - 7ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 7,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:34.882Z] [INFO] GET /api/top-assets/dex-data - 200 - 42ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 42,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:34.891Z] [ERROR] GET /api/realtime/data - 404 - 4ms {
+  "method": "GET",
+  "url": "/api/realtime/data",
+  "statusCode": 404,
+  "responseTime": 4,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:34.928Z] [INFO] GET /api/top-assets/dex-data - 200 - 20ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 20,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:35.814Z] [INFO] 🔗 Client connected: client_1760220695813_d2j4avxao
+[2025-10-11T22:11:35.829Z] [INFO] 🔗 Client connected: client_1760220695828_7okc9l9em
+[2025-10-11T22:11:36.832Z] [ERROR] GET /api/math/analyze - 404 - 2ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 2,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:36.850Z] [INFO] GET /api/top-assets/dex-data - 200 - 15ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 15,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:38.852Z] [ERROR] GET /api/math/analyze - 404 - 2ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 2,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:38.868Z] [INFO] GET /api/top-assets/dex-data - 200 - 38ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 38,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:40.855Z] [ERROR] GET /api/math/analyze - 404 - 2ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 2,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:40.892Z] [INFO] GET /api/top-assets/dex-data - 200 - 33ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 33,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:42.827Z] [ERROR] GET /api/math/analyze - 404 - 1ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 1,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:42.849Z] [INFO] GET /api/top-assets/dex-data - 200 - 20ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 20,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:44.832Z] [ERROR] GET /api/math/analyze - 404 - 1ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 1,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:44.875Z] [INFO] GET /api/top-assets/dex-data - 200 - 42ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 42,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:46.830Z] [ERROR] GET /api/math/analyze - 404 - 1ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 1,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:46.847Z] [INFO] GET /api/top-assets/dex-data - 200 - 16ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 16,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:48.827Z] [ERROR] GET /api/math/analyze - 404 - 2ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 2,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:48.849Z] [INFO] GET /api/top-assets/dex-data - 200 - 16ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 16,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:50.845Z] [ERROR] GET /api/math/analyze - 404 - 3ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 3,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:50.937Z] [INFO] GET /api/top-assets/dex-data - 200 - 50ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 50,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:52.847Z] [ERROR] GET /api/math/analyze - 404 - 3ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 3,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:52.863Z] [INFO] GET /api/top-assets/dex-data - 200 - 12ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 12,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:54.830Z] [ERROR] GET /api/math/analyze - 404 - 1ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 1,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:54.853Z] [INFO] GET /api/top-assets/dex-data - 200 - 17ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 17,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:56.835Z] [ERROR] GET /api/math/analyze - 404 - 2ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 2,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:56.850Z] [INFO] GET /api/top-assets/dex-data - 200 - 13ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 13,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:58.845Z] [ERROR] GET /api/math/analyze - 404 - 1ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 1,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:11:58.866Z] [INFO] GET /api/top-assets/dex-data - 200 - 17ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 17,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:00.830Z] [ERROR] GET /api/math/analyze - 404 - 1ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 1,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:00.849Z] [INFO] GET /api/top-assets/dex-data - 200 - 12ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 12,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:02.836Z] [ERROR] GET /api/math/analyze - 404 - 1ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 1,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:02.842Z] [INFO] GET /api/top-assets/dex-data - 200 - 15ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 15,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:04.836Z] [ERROR] GET /api/math/analyze - 404 - 1ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 1,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:04.851Z] [INFO] GET /api/top-assets/dex-data - 200 - 13ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 13,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:06.916Z] [ERROR] GET /api/math/analyze - 404 - 1ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 1,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:06.925Z] [INFO] GET /api/top-assets/dex-data - 200 - 8ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 8,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:08.830Z] [ERROR] GET /api/math/analyze - 404 - 1ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 1,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:08.869Z] [INFO] GET /api/top-assets/dex-data - 200 - 32ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 32,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:10.931Z] [ERROR] GET /api/math/analyze - 404 - 1ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 1,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:10.952Z] [INFO] GET /api/top-assets/dex-data - 200 - 18ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 18,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:12.961Z] [ERROR] GET /api/math/analyze - 404 - 1ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 1,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:12.988Z] [INFO] GET /api/top-assets/dex-data - 200 - 21ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 21,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:14.946Z] [ERROR] GET /api/math/analyze - 404 - 2ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 2,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:14.966Z] [INFO] GET /api/top-assets/dex-data - 200 - 15ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 15,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:16.935Z] [ERROR] GET /api/math/analyze - 404 - 2ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 2,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:16.968Z] [INFO] GET /api/top-assets/dex-data - 200 - 29ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 29,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:19.008Z] [ERROR] GET /api/math/analyze - 404 - 1ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 1,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:19.041Z] [INFO] GET /api/top-assets/dex-data - 200 - 28ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 28,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:21.078Z] [ERROR] GET /api/math/analyze - 404 - 1ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 1,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:21.142Z] [INFO] GET /api/top-assets/dex-data - 200 - 38ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 38,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:22.953Z] [ERROR] GET /api/math/analyze - 404 - 2ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 2,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:22.981Z] [INFO] GET /api/top-assets/dex-data - 200 - 25ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 25,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:24.921Z] [ERROR] GET /api/math/analyze - 404 - 1ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 1,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:24.936Z] [INFO] GET /api/top-assets/dex-data - 200 - 12ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 12,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:26.935Z] [ERROR] GET /api/math/analyze - 404 - 1ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 1,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:26.976Z] [INFO] GET /api/top-assets/dex-data - 200 - 34ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 34,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:28.932Z] [ERROR] GET /api/math/analyze - 404 - 1ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 1,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:28.950Z] [INFO] GET /api/top-assets/dex-data - 200 - 16ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 16,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:30.943Z] [ERROR] GET /api/math/analyze - 404 - 1ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 1,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:30.962Z] [INFO] GET /api/top-assets/dex-data - 200 - 13ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 13,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:32.935Z] [ERROR] GET /api/math/analyze - 404 - 1ms {
+  "method": "GET",
+  "url": "/api/math/analyze",
+  "statusCode": 404,
+  "responseTime": 1,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:32.948Z] [INFO] GET /api/top-assets/dex-data - 200 - 12ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 12,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:12:33.555Z] [INFO] 🛑 Shutting down server...
+[2025-10-11T22:14:23.812Z] [INFO] 🚀 Initializing Stellar Arbitrage Bot...
+[2025-10-11T22:14:23.812Z] [INFO] 🔧 Setting up middleware...
+[2025-10-11T22:14:23.815Z] [INFO] ✅ Middleware setup complete
+[2025-10-11T22:14:23.816Z] [INFO] 🛣️ Setting up routes...
+[2025-10-11T22:14:23.817Z] [INFO] ✅ Routes setup complete
+[2025-10-11T22:14:23.817Z] [INFO] 🛡️ Setting up error handling...
+[2025-10-11T22:14:23.818Z] [INFO] ✅ Error handling setup complete
+[2025-10-11T22:14:23.819Z] [INFO] 🔧 Initializing services...
+[2025-10-11T22:14:23.820Z] [INFO] ✅ Services initialized
+[2025-10-11T22:14:23.821Z] [INFO] 🗄️ Connecting to MongoDB...
+[2025-10-11T22:14:23.853Z] [INFO] ✅ Connected to MongoDB
+[2025-10-11T22:14:23.855Z] [INFO] 🚀 Server running on port 5000
+[2025-10-11T22:14:23.855Z] [INFO] 📊 API available at: http://localhost:5000
+[2025-10-11T22:14:23.855Z] [INFO] 🔌 WebSocket available at: ws://localhost:5000/ws
+[2025-10-11T22:14:23.856Z] [INFO] 🌐 Environment: development
+[2025-10-11T22:14:23.856Z] [INFO] ✅ Stellar Arbitrage Bot initialized successfully
+[2025-10-11T22:14:28.918Z] [INFO] 🔗 Client connected: client_1760220868917_fs8kagx57
+[2025-10-11T22:14:28.919Z] [INFO] 📡 Client client_1760220868917_fs8kagx57 subscribed to: market_data
+[2025-10-11T22:14:28.920Z] [INFO] 📡 Client client_1760220868917_fs8kagx57 subscribed to: arbitrage
+[2025-10-11T22:14:28.921Z] [INFO] 📡 Client client_1760220868917_fs8kagx57 subscribed to: trades
+[2025-10-11T22:17:17.864Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T22:17:18.751Z] [INFO] 🔗 Client connected: client_1760221038750_c181itzg6
+[2025-10-11T22:17:18.807Z] [INFO] 📡 Client client_1760221038750_c181itzg6 subscribed to: market_data
+[2025-10-11T22:17:18.808Z] [INFO] 📡 Client client_1760221038750_c181itzg6 subscribed to: arbitrage
+[2025-10-11T22:17:18.810Z] [INFO] 📡 Client client_1760221038750_c181itzg6 subscribed to: trades
+[2025-10-11T22:18:10.973Z] [INFO] GET /api/top-assets/dex-data - 200 - 10ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 10,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:18:24.924Z] [INFO] GET /api/top-assets/dex-data - 200 - 13ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 13,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:20:09.757Z] [INFO] 📡 Client client_1760221038750_c181itzg6 subscribed to: market_data
+[2025-10-11T22:20:09.762Z] [INFO] 📡 Client client_1760221038750_c181itzg6 subscribed to: arbitrage
+[2025-10-11T22:20:09.764Z] [INFO] 📡 Client client_1760221038750_c181itzg6 subscribed to: trades
+[2025-10-11T22:20:19.468Z] [INFO] 📡 Client client_1760221038750_c181itzg6 unsubscribed from: market_data
+[2025-10-11T22:20:19.473Z] [INFO] 📡 Client client_1760221038750_c181itzg6 unsubscribed from: arbitrage
+[2025-10-11T22:20:19.476Z] [INFO] 📡 Client client_1760221038750_c181itzg6 unsubscribed from: trades
+[2025-10-11T22:21:26.933Z] [INFO] POST /api/fast-arbitrage/run - 200 - 3ms {
+  "method": "POST",
+  "url": "/api/fast-arbitrage/run",
+  "statusCode": 200,
+  "responseTime": 3,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:21:38.229Z] [INFO] 🛑 Shutting down server...
+[2025-10-11T22:21:43.410Z] [INFO] 🚀 Initializing Stellar Arbitrage Bot...
+[2025-10-11T22:21:43.412Z] [INFO] 🔧 Setting up middleware...
+[2025-10-11T22:21:43.416Z] [INFO] ✅ Middleware setup complete
+[2025-10-11T22:21:43.417Z] [INFO] 🛣️ Setting up routes...
+[2025-10-11T22:21:43.418Z] [INFO] ✅ Routes setup complete
+[2025-10-11T22:21:43.420Z] [INFO] 🛡️ Setting up error handling...
+[2025-10-11T22:21:43.421Z] [INFO] ✅ Error handling setup complete
+[2025-10-11T22:21:43.422Z] [INFO] 🔧 Initializing services...
+[2025-10-11T22:21:43.426Z] [INFO] ✅ Services initialized
+[2025-10-11T22:21:43.430Z] [INFO] 🗄️ Connecting to MongoDB...
+[2025-10-11T22:21:43.505Z] [INFO] ✅ Connected to MongoDB
+[2025-10-11T22:21:43.511Z] [INFO] 🚀 Server running on port 5000
+[2025-10-11T22:21:43.512Z] [INFO] 📊 API available at: http://localhost:5000
+[2025-10-11T22:21:43.512Z] [INFO] 🔌 WebSocket available at: ws://localhost:5000/ws
+[2025-10-11T22:21:43.514Z] [INFO] 🌐 Environment: development
+[2025-10-11T22:21:43.515Z] [INFO] ✅ Stellar Arbitrage Bot initialized successfully
+[2025-10-11T22:21:43.770Z] [INFO] 🔗 Client connected: client_1760221303767_gzvij5t1e
+[2025-10-11T22:21:43.775Z] [INFO] 📡 Client client_1760221303767_gzvij5t1e subscribed to: market_data
+[2025-10-11T22:21:43.777Z] [INFO] 📡 Client client_1760221303767_gzvij5t1e subscribed to: arbitrage
+[2025-10-11T22:21:43.778Z] [INFO] 📡 Client client_1760221303767_gzvij5t1e subscribed to: trades
+[2025-10-11T22:21:46.007Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T22:21:47.686Z] [INFO] 🔗 Client connected: client_1760221307684_trb91njoq
+[2025-10-11T22:21:47.748Z] [INFO] 📡 Client client_1760221307684_trb91njoq subscribed to: market_data
+[2025-10-11T22:21:47.754Z] [INFO] 📡 Client client_1760221307684_trb91njoq subscribed to: arbitrage
+[2025-10-11T22:21:47.760Z] [INFO] 📡 Client client_1760221307684_trb91njoq subscribed to: trades
+[2025-10-11T22:22:41.934Z] [INFO] GET /api/top-assets/dex-data - 200 - 17ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 17,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:22:53.952Z] [INFO] GET /api/top-assets/dex-data - 200 - 34ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 34,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:27:11.022Z] [INFO] 🛑 Shutting down server...
+[2025-10-11T22:27:16.502Z] [INFO] 🚀 Initializing Stellar Arbitrage Bot...
+[2025-10-11T22:27:16.503Z] [INFO] 🔧 Setting up middleware...
+[2025-10-11T22:27:16.505Z] [INFO] ✅ Middleware setup complete
+[2025-10-11T22:27:16.505Z] [INFO] 🛣️ Setting up routes...
+[2025-10-11T22:27:16.506Z] [INFO] ✅ Routes setup complete
+[2025-10-11T22:27:16.506Z] [INFO] 🛡️ Setting up error handling...
+[2025-10-11T22:27:16.507Z] [INFO] ✅ Error handling setup complete
+[2025-10-11T22:27:16.507Z] [INFO] 🔧 Initializing services...
+[2025-10-11T22:27:16.509Z] [INFO] ✅ Services initialized
+[2025-10-11T22:27:16.510Z] [INFO] 🗄️ Connecting to MongoDB...
+[2025-10-11T22:27:16.544Z] [INFO] ✅ Connected to MongoDB
+[2025-10-11T22:27:16.547Z] [INFO] 🚀 Server running on port 5000
+[2025-10-11T22:27:16.548Z] [INFO] 📊 API available at: http://localhost:5000
+[2025-10-11T22:27:16.548Z] [INFO] 🔌 WebSocket available at: ws://localhost:5000/ws
+[2025-10-11T22:27:16.549Z] [INFO] 🌐 Environment: development
+[2025-10-11T22:27:16.550Z] [INFO] ✅ Stellar Arbitrage Bot initialized successfully
+[2025-10-11T22:27:16.762Z] [INFO] 🔗 Client connected: client_1760221636761_11mqba70r
+[2025-10-11T22:27:16.765Z] [INFO] 📡 Client client_1760221636761_11mqba70r subscribed to: market_data
+[2025-10-11T22:27:16.766Z] [INFO] 📡 Client client_1760221636761_11mqba70r subscribed to: arbitrage
+[2025-10-11T22:27:16.767Z] [INFO] 📡 Client client_1760221636761_11mqba70r subscribed to: trades
+[2025-10-11T22:28:20.172Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T22:28:21.264Z] [INFO] 🔗 Client connected: client_1760221701232_bubzbnwau
+[2025-10-11T22:28:21.325Z] [INFO] 📡 Client client_1760221701232_bubzbnwau subscribed to: market_data
+[2025-10-11T22:28:21.336Z] [INFO] 📡 Client client_1760221701232_bubzbnwau subscribed to: arbitrage
+[2025-10-11T22:28:21.340Z] [INFO] 📡 Client client_1760221701232_bubzbnwau subscribed to: trades
+[2025-10-11T22:28:22.783Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T22:28:23.779Z] [INFO] 🔗 Client connected: client_1760221703772_m2gu9aw7c
+[2025-10-11T22:28:23.799Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T22:28:23.816Z] [INFO] 🔗 Client connected: client_1760221703801_i3rirbxby
+[2025-10-11T22:28:23.828Z] [INFO] 📡 Client client_1760221703801_i3rirbxby subscribed to: market_data
+[2025-10-11T22:28:23.834Z] [INFO] 📡 Client client_1760221703801_i3rirbxby subscribed to: arbitrage
+[2025-10-11T22:28:23.849Z] [INFO] 📡 Client client_1760221703801_i3rirbxby subscribed to: trades
+[2025-10-11T22:28:25.041Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T22:28:29.757Z] [INFO] 🔗 Client connected: client_1760221709756_kldleja4w
+[2025-10-11T22:28:29.873Z] [INFO] 📡 Client client_1760221709756_kldleja4w subscribed to: market_data
+[2025-10-11T22:28:29.874Z] [INFO] 📡 Client client_1760221709756_kldleja4w subscribed to: arbitrage
+[2025-10-11T22:28:29.875Z] [INFO] 📡 Client client_1760221709756_kldleja4w subscribed to: trades
+[2025-10-11T22:28:31.033Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T22:28:36.838Z] [INFO] 🔗 Client connected: client_1760221716837_0v7pn5ebb
+[2025-10-11T22:28:36.850Z] [INFO] 📡 Client client_1760221716837_0v7pn5ebb subscribed to: market_data
+[2025-10-11T22:28:36.852Z] [INFO] 📡 Client client_1760221716837_0v7pn5ebb subscribed to: arbitrage
+[2025-10-11T22:28:36.853Z] [INFO] 📡 Client client_1760221716837_0v7pn5ebb subscribed to: trades
+[2025-10-11T22:28:42.075Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T22:28:45.378Z] [INFO] 🔗 Client connected: client_1760221725377_cmasmgjf1
+[2025-10-11T22:28:45.401Z] [INFO] 📡 Client client_1760221725377_cmasmgjf1 subscribed to: market_data
+[2025-10-11T22:28:45.405Z] [INFO] 📡 Client client_1760221725377_cmasmgjf1 subscribed to: arbitrage
+[2025-10-11T22:28:45.409Z] [INFO] 📡 Client client_1760221725377_cmasmgjf1 subscribed to: trades
+[2025-10-11T22:28:46.423Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T22:29:14.307Z] [INFO] 🔗 Client connected: client_1760221754305_e6oawxbcm
+[2025-10-11T22:29:14.332Z] [INFO] 📡 Client client_1760221754305_e6oawxbcm subscribed to: market_data
+[2025-10-11T22:29:14.340Z] [INFO] 📡 Client client_1760221754305_e6oawxbcm subscribed to: arbitrage
+[2025-10-11T22:29:14.354Z] [INFO] 📡 Client client_1760221754305_e6oawxbcm subscribed to: trades
+[2025-10-11T22:29:19.261Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-11T22:29:56.596Z] [INFO] 🔗 Client connected: client_1760221796593_5xfizvw0c
+[2025-10-11T22:29:56.608Z] [INFO] 📡 Client client_1760221796593_5xfizvw0c subscribed to: market_data
+[2025-10-11T22:29:56.610Z] [INFO] 📡 Client client_1760221796593_5xfizvw0c subscribed to: arbitrage
+[2025-10-11T22:29:56.614Z] [INFO] 📡 Client client_1760221796593_5xfizvw0c subscribed to: trades
+[2025-10-11T22:30:17.649Z] [INFO] GET /api/top-assets/dex-data - 200 - 18ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 18,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-11T22:30:28.659Z] [INFO] GET /api/top-assets/dex-data - 200 - 19ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 19,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}

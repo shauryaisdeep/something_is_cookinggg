@@ -1,0 +1,200 @@
+[2025-10-12T02:44:11.874Z] [INFO] 🚀 Initializing Stellar Arbitrage Bot...
+[2025-10-12T02:44:11.875Z] [INFO] 🔧 Setting up middleware...
+[2025-10-12T02:44:11.878Z] [INFO] ✅ Middleware setup complete
+[2025-10-12T02:44:11.878Z] [INFO] 🛣️ Setting up routes...
+[2025-10-12T02:44:11.879Z] [INFO] ✅ Routes setup complete
+[2025-10-12T02:44:11.880Z] [INFO] 🛡️ Setting up error handling...
+[2025-10-12T02:44:11.881Z] [INFO] ✅ Error handling setup complete
+[2025-10-12T02:44:11.882Z] [INFO] 🔧 Initializing services...
+[2025-10-12T02:44:11.884Z] [INFO] ✅ Services initialized
+[2025-10-12T02:44:11.886Z] [INFO] 🗄️ Connecting to MongoDB...
+[2025-10-12T02:44:11.940Z] [INFO] ✅ Connected to MongoDB
+[2025-10-12T02:44:11.943Z] [INFO] 🚀 Server running on port 5000
+[2025-10-12T02:44:11.944Z] [INFO] 📊 API available at: http://localhost:5000
+[2025-10-12T02:44:11.944Z] [INFO] 🔌 WebSocket available at: ws://localhost:5000/ws
+[2025-10-12T02:44:11.945Z] [INFO] 🌐 Environment: development
+[2025-10-12T02:44:11.946Z] [INFO] ✅ Stellar Arbitrage Bot initialized successfully
+[2025-10-12T02:44:56.851Z] [INFO] 🔗 Client connected: client_1760237096849_sfyqlv77t
+[2025-10-12T02:44:56.858Z] [INFO] 📡 Client client_1760237096849_sfyqlv77t subscribed to: market_data
+[2025-10-12T02:44:56.862Z] [INFO] 📡 Client client_1760237096849_sfyqlv77t subscribed to: arbitrage
+[2025-10-12T02:44:56.864Z] [INFO] 📡 Client client_1760237096849_sfyqlv77t subscribed to: trades
+[2025-10-12T02:45:43.533Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-12T02:45:47.505Z] [INFO] 🔗 Client connected: client_1760237147504_kgrsfwm84
+[2025-10-12T02:45:47.520Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-12T02:45:47.523Z] [INFO] 🔗 Client connected: client_1760237147523_4466ubkmb
+[2025-10-12T02:45:47.526Z] [INFO] 📡 Client client_1760237147523_4466ubkmb subscribed to: market_data
+[2025-10-12T02:45:47.531Z] [INFO] 📡 Client client_1760237147523_4466ubkmb subscribed to: arbitrage
+[2025-10-12T02:45:47.533Z] [INFO] 📡 Client client_1760237147523_4466ubkmb subscribed to: trades
+[2025-10-12T02:45:50.519Z] [INFO] 🔗 Client connected: client_1760237150519_lzsolrv17
+[2025-10-12T02:45:50.520Z] [INFO] 📡 Client client_1760237150519_lzsolrv17 subscribed to: market_data
+[2025-10-12T02:45:50.521Z] [INFO] 📡 Client client_1760237150519_lzsolrv17 subscribed to: arbitrage
+[2025-10-12T02:45:50.522Z] [INFO] 📡 Client client_1760237150519_lzsolrv17 subscribed to: trades
+[2025-10-12T02:46:27.752Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-12T02:50:17.130Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-12T02:50:18.924Z] [INFO] 🔗 Client connected: client_1760237418791_6d2q6ikrz
+[2025-10-12T02:50:18.941Z] [INFO] 📡 Client client_1760237418791_6d2q6ikrz subscribed to: market_data
+[2025-10-12T02:50:18.952Z] [INFO] 📡 Client client_1760237418791_6d2q6ikrz subscribed to: arbitrage
+[2025-10-12T02:50:18.964Z] [INFO] 📡 Client client_1760237418791_6d2q6ikrz subscribed to: trades
+[2025-10-12T02:52:27.723Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-12T02:52:28.378Z] [INFO] 🔗 Client connected: client_1760237548377_50ei0j260
+[2025-10-12T02:52:28.396Z] [INFO] 📡 Client client_1760237548377_50ei0j260 subscribed to: market_data
+[2025-10-12T02:52:28.399Z] [INFO] 📡 Client client_1760237548377_50ei0j260 subscribed to: arbitrage
+[2025-10-12T02:52:28.401Z] [INFO] 📡 Client client_1760237548377_50ei0j260 subscribed to: trades
+[2025-10-12T03:03:15.340Z] [INFO] 🔗 Client connected: client_1760238195340_az25x5ood
+[2025-10-12T03:03:15.353Z] [INFO] 📡 Client client_1760238195340_az25x5ood subscribed to: market_data
+[2025-10-12T03:03:15.354Z] [INFO] 📡 Client client_1760238195340_az25x5ood subscribed to: arbitrage
+[2025-10-12T03:03:15.355Z] [INFO] 📡 Client client_1760238195340_az25x5ood subscribed to: trades
+[2025-10-12T03:03:28.442Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-12T03:03:57.230Z] [INFO] 📡 Client client_1760238195340_az25x5ood subscribed to: market_data
+[2025-10-12T03:03:57.231Z] [INFO] 📡 Client client_1760238195340_az25x5ood subscribed to: arbitrage
+[2025-10-12T03:03:57.233Z] [INFO] 📡 Client client_1760238195340_az25x5ood subscribed to: trades
+[2025-10-12T03:04:33.234Z] [INFO] 📡 Client client_1760238195340_az25x5ood unsubscribed from: market_data
+[2025-10-12T03:04:33.236Z] [INFO] 📡 Client client_1760238195340_az25x5ood unsubscribed from: arbitrage
+[2025-10-12T03:04:33.242Z] [INFO] 📡 Client client_1760238195340_az25x5ood unsubscribed from: trades
+[2025-10-12T03:05:17.667Z] [INFO] GET /api/top-assets/dex-data - 200 - 29ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 29,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-12T03:05:17.697Z] [INFO] GET /api/top-assets/dex-data - 200 - 25ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 25,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-12T03:05:36.082Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-12T03:05:36.812Z] [INFO] 🔗 Client connected: client_1760238336811_vk3odt1cc
+[2025-10-12T03:05:36.829Z] [INFO] 📡 Client client_1760238336811_vk3odt1cc subscribed to: market_data
+[2025-10-12T03:05:36.833Z] [INFO] 📡 Client client_1760238336811_vk3odt1cc subscribed to: arbitrage
+[2025-10-12T03:05:36.836Z] [INFO] 📡 Client client_1760238336811_vk3odt1cc subscribed to: trades
+[2025-10-12T03:05:37.865Z] [INFO] GET /api/top-assets/dex-data - 200 - 13ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 13,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-12T03:05:37.884Z] [INFO] GET /api/top-assets/dex-data - 200 - 17ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 17,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-12T03:06:10.755Z] [INFO] 📡 Client client_1760238336811_vk3odt1cc subscribed to: market_data
+[2025-10-12T03:06:10.758Z] [INFO] 📡 Client client_1760238336811_vk3odt1cc subscribed to: arbitrage
+[2025-10-12T03:06:10.759Z] [INFO] 📡 Client client_1760238336811_vk3odt1cc subscribed to: trades
+[2025-10-12T03:06:45.168Z] [INFO] GET /api/top-assets/dex-data - 200 - 44ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 44,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-12T03:09:38.628Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-12T03:09:39.529Z] [INFO] 🔗 Client connected: client_1760238579528_pk7tq9en6
+[2025-10-12T03:09:39.539Z] [INFO] 📡 Client client_1760238579528_pk7tq9en6 subscribed to: market_data
+[2025-10-12T03:09:39.541Z] [INFO] 📡 Client client_1760238579528_pk7tq9en6 subscribed to: arbitrage
+[2025-10-12T03:09:39.542Z] [INFO] 📡 Client client_1760238579528_pk7tq9en6 subscribed to: trades
+[2025-10-12T03:10:12.375Z] [INFO] GET /api/top-assets/dex-data - 200 - 14ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 14,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-12T03:10:12.395Z] [INFO] GET /api/top-assets/dex-data - 200 - 18ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 18,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-12T03:10:15.667Z] [INFO] 📡 Client client_1760238579528_pk7tq9en6 subscribed to: market_data
+[2025-10-12T03:10:15.669Z] [INFO] 📡 Client client_1760238579528_pk7tq9en6 subscribed to: arbitrage
+[2025-10-12T03:10:15.671Z] [INFO] 📡 Client client_1760238579528_pk7tq9en6 subscribed to: trades
+[2025-10-12T03:12:17.188Z] [INFO] GET /api/top-assets/dex-data - 200 - 16ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 16,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-12T03:12:17.206Z] [INFO] GET /api/top-assets/dex-data - 200 - 16ms {
+  "method": "GET",
+  "url": "/api/top-assets/dex-data",
+  "statusCode": 200,
+  "responseTime": 16,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-12T03:13:56.950Z] [INFO] POST /api/fast-arbitrage/run - 200 - 3ms {
+  "method": "POST",
+  "url": "/api/fast-arbitrage/run",
+  "statusCode": 200,
+  "responseTime": 3,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
+[2025-10-12T03:38:40.242Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-12T03:38:40.918Z] [INFO] 🔗 Client connected: client_1760240320916_gjn23870c
+[2025-10-12T03:38:40.937Z] [INFO] 📡 Client client_1760240320916_gjn23870c subscribed to: market_data
+[2025-10-12T03:38:40.938Z] [INFO] 📡 Client client_1760240320916_gjn23870c subscribed to: arbitrage
+[2025-10-12T03:38:40.940Z] [INFO] 📡 Client client_1760240320916_gjn23870c subscribed to: trades
+[2025-10-12T04:25:59.249Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-12T04:26:00.023Z] [INFO] 🔗 Client connected: client_1760243160022_9j032umil
+[2025-10-12T04:26:00.044Z] [INFO] 📡 Client client_1760243160022_9j032umil subscribed to: market_data
+[2025-10-12T04:26:00.045Z] [INFO] 📡 Client client_1760243160022_9j032umil subscribed to: arbitrage
+[2025-10-12T04:26:00.046Z] [INFO] 📡 Client client_1760243160022_9j032umil subscribed to: trades
+[2025-10-12T04:35:40.060Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-12T04:35:40.738Z] [INFO] 🔗 Client connected: client_1760243740738_jzp9yb29g
+[2025-10-12T04:35:40.760Z] [INFO] 📡 Client client_1760243740738_jzp9yb29g subscribed to: market_data
+[2025-10-12T04:35:40.761Z] [INFO] 📡 Client client_1760243740738_jzp9yb29g subscribed to: arbitrage
+[2025-10-12T04:35:40.763Z] [INFO] 📡 Client client_1760243740738_jzp9yb29g subscribed to: trades
+[2025-10-12T04:35:47.211Z] [INFO] 🔌 Client disconnected: undefined
+[2025-10-12T04:35:47.716Z] [INFO] 🔗 Client connected: client_1760243747715_kgl8rm0z2
+[2025-10-12T04:35:47.724Z] [INFO] 📡 Client client_1760243747715_kgl8rm0z2 subscribed to: market_data
+[2025-10-12T04:35:47.726Z] [INFO] 📡 Client client_1760243747715_kgl8rm0z2 subscribed to: arbitrage
+[2025-10-12T04:35:47.728Z] [INFO] 📡 Client client_1760243747715_kgl8rm0z2 subscribed to: trades
+[2025-10-12T05:21:46.533Z] [INFO] 🚀 Initializing Stellar Arbitrage Bot...
+[2025-10-12T05:21:46.534Z] [INFO] 🔧 Setting up middleware...
+[2025-10-12T05:21:46.537Z] [INFO] ✅ Middleware setup complete
+[2025-10-12T05:21:46.539Z] [INFO] 🛣️ Setting up routes...
+[2025-10-12T05:21:46.540Z] [INFO] ✅ Routes setup complete
+[2025-10-12T05:21:46.541Z] [INFO] 🛡️ Setting up error handling...
+[2025-10-12T05:21:46.541Z] [INFO] ✅ Error handling setup complete
+[2025-10-12T05:21:46.542Z] [INFO] 🔧 Initializing services...
+[2025-10-12T05:21:46.545Z] [INFO] ✅ Services initialized
+[2025-10-12T05:21:46.547Z] [INFO] 🗄️ Connecting to MongoDB...
+[2025-10-12T05:21:46.639Z] [INFO] ✅ Connected to MongoDB
+[2025-10-12T05:21:46.644Z] [INFO] 🚀 Server running on port 5000
+[2025-10-12T05:21:46.645Z] [INFO] 📊 API available at: http://localhost:5000
+[2025-10-12T05:21:46.646Z] [INFO] 🔌 WebSocket available at: ws://localhost:5000/ws
+[2025-10-12T05:21:46.646Z] [INFO] 🌐 Environment: development
+[2025-10-12T05:21:46.647Z] [INFO] ✅ Stellar Arbitrage Bot initialized successfully
+[2025-10-12T05:22:07.726Z] [INFO] 🔗 Client connected: client_1760246527659_5p4y8q0rm
+[2025-10-12T05:22:07.754Z] [INFO] 📡 Client client_1760246527659_5p4y8q0rm subscribed to: market_data
+[2025-10-12T05:22:07.784Z] [INFO] 📡 Client client_1760246527659_5p4y8q0rm subscribed to: arbitrage
+[2025-10-12T05:22:07.868Z] [INFO] 📡 Client client_1760246527659_5p4y8q0rm subscribed to: trades
+[2025-10-12T05:41:44.948Z] [INFO] 📡 Client client_1760246527659_5p4y8q0rm subscribed to: market_data
+[2025-10-12T05:41:44.952Z] [INFO] 📡 Client client_1760246527659_5p4y8q0rm subscribed to: arbitrage
+[2025-10-12T05:41:44.959Z] [INFO] 📡 Client client_1760246527659_5p4y8q0rm subscribed to: trades
+[2025-10-12T05:42:37.694Z] [ERROR] POST /api/fast-arbitrage/run - 429 - 7ms {
+  "method": "POST",
+  "url": "/api/fast-arbitrage/run",
+  "statusCode": 429,
+  "responseTime": 7,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "ip": "::1"
+}
